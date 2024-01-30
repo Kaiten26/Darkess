@@ -13,7 +13,6 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb;
     private float mx;
-    private bool isGrounded;
     private bool isDashing;
     private float dashTimeLeft;
 
