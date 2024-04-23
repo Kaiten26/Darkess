@@ -812,7 +812,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2052153539}
   verticalOffset: 0
-  horizontalOffset: 1
+  horizontalOffset: 2
   smoothTime: 0.5
 --- !u!1 &950013584
 GameObject:
@@ -1702,13 +1702,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 464058aef04dedb43845452afb51b276, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 20
-  currentHealth: 0
-  invincibilityDurationSeconds: 2
-  knockbackSpeedX: 5
-  knockbackSpeedY: 5
-  isInvincible: 0
-  rb: {fileID: 0}
 --- !u!114 &1714855493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1721,8 +1714,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 081f857d12c94e84cb0bcbe54415ccfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageOnCollision: 10
-  isInvincible: 0
 --- !u!1 &1760532197
 GameObject:
   m_ObjectHideFlags: 0
@@ -1869,7 +1860,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7558e9c78559522478ac4731d7e0dcf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
 --- !u!1 &1778198806
 GameObject:
   m_ObjectHideFlags: 0
