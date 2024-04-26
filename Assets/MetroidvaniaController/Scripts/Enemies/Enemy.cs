@@ -101,9 +101,10 @@ public class Enemy : MonoBehaviour {
     IEnumerator DestroyEnemy()
     {
         GetComponent<Animator>().SetBool("IsDead", true);
-        //GetComponent<CapsuleCollider2D>().enabled = false;
         GetComponent<Rigidbody2D>().velocity = Vector2.zero; // Arrête tout mouvement horizontal et vertical
         GetComponent<Rigidbody2D>().isKinematic = true; // Change le Rigidbody en kinematic pour éviter toute réponse physique
+		gameObject.layer = LayerMask.NameToLayer("EnemyDead"); // Changement du calque de l'ennemi à sa mort
+        GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezeRotation; // Pour empêcher les mouvements et la chute, désactivez simplement les interactions du Rigidbody
         this.enabled = false; // Désactive le script Enemy pour arrêter d'autres mises à jour et actions
         yield return new WaitForSeconds(3f); // Ce délai peut être ajusté ou omis
     }
@@ -115,16 +116,20 @@ public class Enemy : MonoBehaviour {
 
     private IEnumerator ReviveCoroutine()
     {
-        yield return new WaitForSeconds(0f); // Attente de 0.5 seconde
+        yield return new WaitForSeconds(1f); // Attente de 1 seconde
         Revive();
     }
 
     public void Revive()
     {
+        gameObject.layer = LayerMask.NameToLayer("EnemyAlive"); // Réinitialisation du calque à la réanimation
+        GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+        GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation; // Pour permettre à nouveau les mouvements, réinitialisez les contraintes du Rigidbody
         GetComponent<Rigidbody2D>().isKinematic = false; // Restaure la physique normale
         GetComponent<CapsuleCollider2D>().enabled = true; // Réactive les collisions
         GetComponent<Rigidbody2D>().velocity = Vector2.zero; // Assurez-vous qu'il n'y a pas de mouvement résiduel
         GetComponent<Animator>().SetBool("IsDead", false);
+		Debug.Log("Is not dead animation");
         this.enabled = true;
         life = 10;
         isDead = false;

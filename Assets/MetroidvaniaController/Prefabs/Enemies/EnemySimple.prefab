@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4921565249646226}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: WallCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4850398340925330}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: FallCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76,7 +76,7 @@ GameObject:
   - component: {fileID: 70096548459731550}
   - component: {fileID: 50249040782121326}
   - component: {fileID: 95077898361601450}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: EnemySimple
   m_TagString: Enemy
   m_Icon: {fileID: 0}

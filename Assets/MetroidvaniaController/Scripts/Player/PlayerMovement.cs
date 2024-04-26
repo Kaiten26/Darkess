@@ -55,17 +55,25 @@ public class PlayerMovement : MonoBehaviour {
 
     void CheckAndReviveEnemies()
     {
-        Collider2D[] hitColliders = Physics2D.OverlapCircleAll(transform.position, 100f);
+        Collider2D[] hitColliders = Physics2D.OverlapCircleAll(transform.position, 3f);
         Debug.Log("Checking for dead enemies to revive...");
         foreach (var hitCollider in hitColliders)
         {
             if (hitCollider != null && hitCollider.gameObject.tag == "Enemy")
             {
                 Enemy enemyScript = hitCollider.GetComponent<Enemy>();
+                Ally AllyScript = hitCollider.GetComponent<Ally>();
+
                 if (enemyScript != null && enemyScript.isDead)
                 {
                     Debug.Log("Reviving enemy: " + hitCollider.gameObject.name);
                     enemyScript.ReviveWithDelay();
+                }
+
+                else if (AllyScript != null && AllyScript.isDead)
+                {
+                    Debug.Log("Reviving enemy: " + hitCollider.gameObject.name);
+                    AllyScript.ReviveWithDelay();
                 }
             }
         }
