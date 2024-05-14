@@ -7,6 +7,7 @@ public class SoulScript : MonoBehaviour
     public float interactionRange = 2.0f; // Distance à laquelle le joueur peut interagir avec l'âme
 
     private GameObject player; // Pour stocker une référence au joueur
+    private bool isSpawning = false; // Pour empêcher les spawns multiples
 
     void Start()
     {
@@ -15,9 +16,12 @@ public class SoulScript : MonoBehaviour
 
     void Update()
     {
+        if (isSpawning) return; // Si déjà en train de spawn, sortir
+
         // Vérifier si le joueur est à portée et si le joueur appuie sur 'E'
         if (Vector3.Distance(player.transform.position, transform.position) <= interactionRange && Input.GetKeyDown(KeyCode.E))
         {
+            isSpawning = true; // Empêcher les spawns multiples
             StartCoroutine(SpawnAllyAfterDelay(1)); // Appel de la coroutine avec un délai
         }
     }

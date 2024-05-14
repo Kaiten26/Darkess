@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4403053247222770}
   m_Layer: 3
   m_Name: WallCheck
-  m_TagString: Enemy
+  m_TagString: Allies
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 4814588324006016}
   m_Layer: 3
   m_Name: FallCheck
-  m_TagString: Enemy
+  m_TagString: Allies
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79,7 +79,7 @@ GameObject:
   - component: {fileID: 82229625843168448}
   m_Layer: 3
   m_Name: AllySimple
-  m_TagString: Enemy
+  m_TagString: Allies
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114,17 +114,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a9dd530aff46ab40b88bdfbccae9bbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  minFollowDistance: 2
-  maxFollowDistance: 5
+  life: 10
   speed: 5
-  attackRange: 2
-  enemyLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  attackPower: 10
-  repulseStrength: 500
-  jumpForce: 700
+  isInvincible: 0
+  m_DashForce: 25
+  enemy: {fileID: 0}
+  meleeDist: 1.5
+  rangeDist: 5
+  dmgValue: 4
+  throwableObject: {fileID: 0}
 --- !u!212 &212832719579855464
 SpriteRenderer:
   m_ObjectHideFlags: 0

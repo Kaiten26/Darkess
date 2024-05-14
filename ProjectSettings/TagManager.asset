@@ -5,8 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
-  - Ennemy
   - Soul
+  - Allies
+  - Wall
+  - Plant
+  - Rock
   layers:
   - Default
   - TransparentFX
