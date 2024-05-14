@@ -4,8 +4,7 @@ using System.Collections;
 public class Enemy : MonoBehaviour {
 
 	public float life = 10;
-    public bool isDead = false; // Variable pour vérifier si l'ennemi est mort
-    private bool isPlat;
+	private bool isPlat;
 	private bool isObstacle;
 	private Transform fallCheck;
 	private Transform wallCheck;
@@ -28,14 +27,12 @@ public class Enemy : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
 
-        // Modifiez la condition de mort
-        if (life <= 0 && !isDead)
-        {
-            StartCoroutine(DestroyEnemy());
-            isDead = true; // Marquez l'ennemi comme mort
-        }
+		if (life <= 0) {
+			transform.GetComponent<Animator>().SetBool("IsDead", true);
+			StartCoroutine(DestroyEnemy());
+		}
 
-        isPlat = Physics2D.OverlapCircle(fallCheck.position, .2f, 1 << LayerMask.NameToLayer("Default"));
+		isPlat = Physics2D.OverlapCircle(fallCheck.position, .2f, 1 << LayerMask.NameToLayer("Default"));
 		isObstacle = Physics2D.OverlapCircle(wallCheck.position, .2f, turnLayerMask);
 
 		if (!isHitted && life > 0 && Mathf.Abs(rb.velocity.y) < 0.5f)
@@ -98,41 +95,15 @@ public class Enemy : MonoBehaviour {
 		isInvincible = false;
 	}
 
-    IEnumerator DestroyEnemy()
-    {
-        GetComponent<Animator>().SetBool("IsDead", true);
-        GetComponent<Rigidbody2D>().velocity = Vector2.zero; // Arrête tout mouvement horizontal et vertical
-        GetComponent<Rigidbody2D>().isKinematic = true; // Change le Rigidbody en kinematic pour éviter toute réponse physique
-		gameObject.layer = LayerMask.NameToLayer("EnemyDead"); // Changement du calque de l'ennemi à sa mort
-        GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezeRotation; // Pour empêcher les mouvements et la chute, désactivez simplement les interactions du Rigidbody
-        this.enabled = false; // Désactive le script Enemy pour arrêter d'autres mises à jour et actions
-        yield return new WaitForSeconds(3f); // Ce délai peut être ajusté ou omis
-    }
-
-    public void ReviveWithDelay()
-    {
-        StartCoroutine(ReviveCoroutine());
-    }
-
-    private IEnumerator ReviveCoroutine()
-    {
-        yield return new WaitForSeconds(1f); // Attente de 1 seconde
-        Revive();
-    }
-
-    public void Revive()
-    {
-        gameObject.layer = LayerMask.NameToLayer("EnemyAlive"); // Réinitialisation du calque à la réanimation
-        GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
-        GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation; // Pour permettre à nouveau les mouvements, réinitialisez les contraintes du Rigidbody
-        GetComponent<Rigidbody2D>().isKinematic = false; // Restaure la physique normale
-        GetComponent<CapsuleCollider2D>().enabled = true; // Réactive les collisions
-        GetComponent<Rigidbody2D>().velocity = Vector2.zero; // Assurez-vous qu'il n'y a pas de mouvement résiduel
-        GetComponent<Animator>().SetBool("IsDead", false);
-		Debug.Log("Is not dead animation");
-        this.enabled = true;
-        life = 10;
-        isDead = false;
-    }
-
+	IEnumerator DestroyEnemy()
+	{
+		CapsuleCollider2D capsule = GetComponent<CapsuleCollider2D>();
+		capsule.size = new Vector2(1f, 0.25f);
+		capsule.offset = new Vector2(0f, -0.8f);
+		capsule.direction = CapsuleDirection2D.Horizontal;
+		yield return new WaitForSeconds(0.25f);
+		rb.velocity = new Vector2(0, rb.velocity.y);
+		yield return new WaitForSeconds(3f);
+		Destroy(gameObject);
+	}
 }

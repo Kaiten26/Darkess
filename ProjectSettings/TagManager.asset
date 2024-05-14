@@ -5,15 +5,17 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Ennemy
+  - Soul
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ally
   - Water
   - UI
-  - EnemyAlive
-  - EnemyDead
+  - Enemy
+  - 
   - 
   - 
   - 

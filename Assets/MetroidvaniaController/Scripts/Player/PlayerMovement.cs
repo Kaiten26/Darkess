@@ -32,12 +32,7 @@ public class PlayerMovement : MonoBehaviour {
 			dash = true;
 		}
 
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            CheckAndReviveEnemies();
-        }
-
-        /*if (Input.GetAxisRaw("Dash") == 1 || Input.GetAxisRaw("Dash") == -1) //RT in Unity 2017 = -1, RT in Unity 2019 = 1
+		/*if (Input.GetAxisRaw("Dash") == 1 || Input.GetAxisRaw("Dash") == -1) //RT in Unity 2017 = -1, RT in Unity 2019 = 1
 		{
 			if (dashAxis == false)
 			{
@@ -51,38 +46,9 @@ public class PlayerMovement : MonoBehaviour {
 		}
 		*/
 
-    }
+	}
 
-    void CheckAndReviveEnemies()
-    {
-        Collider2D[] hitColliders = Physics2D.OverlapCircleAll(transform.position, 3f);
-        Debug.Log("Checking for dead enemies to revive...");
-        foreach (var hitCollider in hitColliders)
-        {
-            if (hitCollider != null && hitCollider.gameObject.tag == "Enemy")
-            {
-                Enemy enemyScript = hitCollider.GetComponent<Enemy>();
-                Ally AllyScript = hitCollider.GetComponent<Ally>();
-
-                if (enemyScript != null && enemyScript.isDead)
-                {
-                    Debug.Log("Reviving enemy: " + hitCollider.gameObject.name);
-                    enemyScript.ReviveWithDelay();
-                }
-
-                else if (AllyScript != null && AllyScript.isDead)
-                {
-                    Debug.Log("Reviving enemy: " + hitCollider.gameObject.name);
-                    AllyScript.ReviveWithDelay();
-                }
-            }
-        }
-    }
-
-
-
-
-    public void OnFall()
+	public void OnFall()
 	{
 		animator.SetBool("IsJumping", true);
 	}
