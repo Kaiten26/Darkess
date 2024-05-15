@@ -1,0 +1,409 @@
+fileFormatVersion: 2
+guid: e7acb64de7a2ea74fa15c491e4c1b3c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8800518580057383975
+    second: Slice attack-Sheet_0
+  - first:
+      213: 3568464634788426564
+    second: Slice attack-Sheet_1
+  - first:
+      213: 96801218689455070
+    second: Slice attack-Sheet_2
+  - first:
+      213: -4710004438641815274
+    second: Slice attack-Sheet_3
+  - first:
+      213: -726630551517695555
+    second: Slice attack-Sheet_4
+  - first:
+      213: -4165046990265829860
+    second: Slice attack-Sheet_5
+  - first:
+      213: 947883978450233537
+    second: Slice attack-Sheet_6
+  - first:
+      213: 4888737522909474915
+    second: Slice attack-Sheet_7
+  - first:
+      213: 7162616682034759826
+    second: Slice attack-Sheet_8
+  - first:
+      213: -8329370401587201189
+    second: Slice attack-Sheet_9
+  - first:
+      213: 6421593770596193082
+    second: Slice attack-Sheet_10
+  - first:
+      213: 6810596002423720120
+    second: Slice attack-Sheet_11
+  - first:
+      213: -6792711187937869701
+    second: Slice attack-Sheet_12
+  - first:
+      213: -6238855844950625516
+    second: Slice attack-Sheet_13
+  - first:
+      213: -5438602268125325096
+    second: Slice attack-Sheet_14
+  - first:
+      213: -768880251322422526
+    second: Slice attack-Sheet_15
+  - first:
+      213: 5161023366709365211
+    second: Slice attack-Sheet_16
+  - first:
+      213: -3009262378629911745
+    second: Slice attack-Sheet_17
+  - first:
+      213: 7135647715755705205
+    second: Slice attack-Sheet_18
+  - first:
+      213: -2056263293556897558
+    second: Slice attack-Sheet_19
+  - first:
+      213: 6275564851959251363
+    second: Slice attack-Sheet_20
+  - first:
+      213: -2762088483880665626
+    second: Slice attack-Sheet_21
+  - first:
+      213: -7405852576769246295
+    second: Slice attack-Sheet_22
+  - first:
+      213: -3082733475096833489
+    second: Slice attack-Sheet_23
+  - first:
+      213: 530729919258249335
+    second: Slice attack-Sheet_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slice attack-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1710
+        width: 820
+        height: 190
+      alignment: 9
+      pivot: {x: 0.15853658, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2792f6915e1ff954ca5e69e6e9d40eab
+      internalID: 228958749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slice attack-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1522
+        width: 820
+        height: 190
+      alignment: 9
+      pivot: {x: 0.15853658, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb0de86d3030a941ad6ae01e3ba8242
+      internalID: 1463074658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slice attack-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1332
+        width: 820
+        height: 190
+      alignment: 9
+      pivot: {x: 0.15853658, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74606ba42dd087647a9a5aa49a3a3a38
+      internalID: 2081929027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slice attack-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1140
+        width: 820
+        height: 190
+      alignment: 9
+      pivot: {x: 0.15853658, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6b6d104858e0a4da9967f2d230649d
+      internalID: -1267667409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slice attack-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 950
+        width: 820
+        height: 190
+      alignment: 9
+      pivot: {x: 0.15853658, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4844ec32bb472b34e9d01f4e44af361f
+      internalID: -1647743235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slice attack-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 762
+        width: 820
+        height: 190
+      alignment: 9
+      pivot: {x: 0.79268295, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117bcfa1226a7c24dad771ebe13ad539
+      internalID: -2029859624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slice attack-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 572
+        width: 820
+        height: 190
+      alignment: 9
+      pivot: {x: 0.79268295, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f864d9ee45df349a29f69692087f0f
+      internalID: 1854651314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slice attack-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 380
+        width: 820
+        height: 190
+      alignment: 9
+      pivot: {x: 0.79268295, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262b75cec912eb7448f20f93ff4f1f62
+      internalID: 1569779805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slice attack-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 820
+        height: 190
+      alignment: 9
+      pivot: {x: 0.79268295, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c1570300bc8de4e99b34f17b5c2b3f
+      internalID: -208212792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slice attack-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 820
+        height: 190
+      alignment: 9
+      pivot: {x: 0.79268295, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688542c84ae7b4945b7a69435fd3c547
+      internalID: 882908830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bc012c0a2d4ec2043863596d732b97db
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Slice attack-Sheet_0: 228958749
+      Slice attack-Sheet_1: 1463074658
+      Slice attack-Sheet_2: 2081929027
+      Slice attack-Sheet_3: -1267667409
+      Slice attack-Sheet_4: -1647743235
+      Slice attack-Sheet_5: -2029859624
+      Slice attack-Sheet_6: 1854651314
+      Slice attack-Sheet_7: 1569779805
+      Slice attack-Sheet_8: -208212792
+      Slice attack-Sheet_9: 882908830
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
