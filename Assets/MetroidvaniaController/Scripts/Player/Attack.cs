@@ -13,13 +13,13 @@ public class Attack : MonoBehaviour
 
     public GameObject cam;
 
-    private BoxCollider2D attackHitbox;  // Collider for the attack hitbox
+    private BoxCollider2D attackHitbox;
 
     private void Awake()
     {
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
-        attackHitbox = GetComponent<BoxCollider2D>();  // Ensure this is added in the Inspector
-        attackHitbox.enabled = false;  // Disable hitbox by default
+        attackHitbox = GetComponent<BoxCollider2D>();
+        attackHitbox.enabled = false;
     }
 
     void Update()
@@ -61,6 +61,11 @@ public class Attack : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Enemy")
+        {
+            collision.gameObject.SendMessage("ApplyDamage", dmgValue);
+            cam.GetComponent<CameraFollow>().ShakeCamera();
+        }
+        else if (collision.gameObject.tag == "Boss")
         {
             collision.gameObject.SendMessage("ApplyDamage", dmgValue);
             cam.GetComponent<CameraFollow>().ShakeCamera();

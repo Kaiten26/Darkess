@@ -10,6 +10,7 @@ TagManager:
   - Wall
   - Plant
   - Rock
+  - Boss
   layers:
   - Default
   - TransparentFX
