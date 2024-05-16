@@ -119,8 +119,10 @@ MonoBehaviour:
   isInvincible: 0
   m_DashForce: 25
   enemy: {fileID: 0}
+  player: {fileID: 0}
   meleeDist: 1.5
   rangeDist: 5
+  followDist: 2
   dmgValue: 4
   throwableObject: {fileID: 0}
 --- !u!212 &212832719579855464
@@ -145,7 +147,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f7ae16364b516854e9d432c26bfc2892, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -166,7 +168,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 96be36fcbc69e8944b5d9f089bc07112, type: 3}
+  m_Sprite: {fileID: -7523789146226334364, guid: a82f77e377777d541ae1a4610d3e0145, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -251,7 +253,7 @@ Animator:
   m_GameObject: {fileID: 1516778740484128}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2f1ff9a0da7f4884e873d2da75c95f93, type: 2}
+  m_Controller: {fileID: 9100000, guid: 7507d728be2ac9e46bf7b4a23a9ce824, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
