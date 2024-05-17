@@ -34,6 +34,8 @@ public class BossController : MonoBehaviour
     private Transform player;
     private float lastAttackTime;
 
+    public GameObject ObjectScript;
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -41,7 +43,6 @@ public class BossController : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
         currentHP = maxHP;
         lastAttackTime = -attackCooldown; // Initialisation pour permettre une attaque immédiate
-        StartCoroutine(AttackCycle());
     }
 
     void Update()
@@ -137,6 +138,7 @@ public class BossController : MonoBehaviour
         }
 
         // Déclencher l'animation SlamAttack
+        animator.SetTrigger("VanishSlam");
         animator.SetTrigger("SlamAttack");
 
         // Attaque à la frame 28 (2.8 secondes à 10 FPS)
@@ -237,6 +239,7 @@ public class BossController : MonoBehaviour
     public void ApplyDamage(float damage)
     {
         currentHP -= damage; // Réduire les HP du boss
+        currentHP = Mathf.Max(currentHP, 0); // Assurez-vous que les HP ne descendent pas en dessous de 0
         Debug.Log("Boss takes " + damage + " damage. Current HP: " + currentHP);
         animator.SetTrigger("Hit");
 
@@ -275,11 +278,16 @@ public class BossController : MonoBehaviour
         }
         Debug.Log("Boss collisions disabled");
 
+        // Disable the Rigidbody2D
+        rb.simulated = false;
+        Debug.Log("Boss Rigidbody2D disabled");
+
         // Play death animation
         animator.SetTrigger("Die");
         Debug.Log("Boss playing death animation");
 
         // Désactivez le script BossController pour empêcher tout mouvement ou action supplémentaire
+        StopAllCoroutines();
         this.enabled = false;
 
         isVanishing = false;

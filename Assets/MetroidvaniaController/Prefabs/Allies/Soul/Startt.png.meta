@@ -1,0 +1,850 @@
+fileFormatVersion: 2
+guid: 9c2f8e168158e9a45854a5305d77890c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 390772854676021411
+    second: Startt_0
+  - first:
+      213: -8546946338062545511
+    second: Startt_1
+  - first:
+      213: 4922317721795462661
+    second: Startt_2
+  - first:
+      213: -4451843585999089552
+    second: Startt_3
+  - first:
+      213: 8512968230145173881
+    second: Startt_4
+  - first:
+      213: -8137915732361111977
+    second: Startt_5
+  - first:
+      213: -7376967567265312111
+    second: Startt_6
+  - first:
+      213: 5036101948781932448
+    second: Startt_7
+  - first:
+      213: 7134224601529801843
+    second: Startt_8
+  - first:
+      213: 1526888962438016786
+    second: Startt_9
+  - first:
+      213: 6800776010817749610
+    second: Startt_10
+  - first:
+      213: -7838841898857965660
+    second: Startt_11
+  - first:
+      213: -5644601402518315955
+    second: Startt_12
+  - first:
+      213: -1431684232015908091
+    second: Startt_13
+  - first:
+      213: 3201534054893258964
+    second: Startt_14
+  - first:
+      213: 5960852530560307358
+    second: Startt_15
+  - first:
+      213: 5381588405349378452
+    second: Startt_16
+  - first:
+      213: 6586878151241926648
+    second: Startt_17
+  - first:
+      213: -461674275589201731
+    second: Startt_18
+  - first:
+      213: -7023206588604936805
+    second: Startt_19
+  - first:
+      213: 6917519160294181963
+    second: Startt_20
+  - first:
+      213: -4945509882697130657
+    second: Startt_21
+  - first:
+      213: -5968879016707693306
+    second: Startt_22
+  - first:
+      213: 1183228896385605155
+    second: Startt_23
+  - first:
+      213: 5411897850529379360
+    second: Startt_24
+  - first:
+      213: 1746928997787938549
+    second: Startt_25
+  - first:
+      213: 1193429458930121176
+    second: Startt_26
+  - first:
+      213: -5286808887774171243
+    second: Startt_27
+  - first:
+      213: -3587219028497868860
+    second: Startt_28
+  - first:
+      213: -2603532122075215765
+    second: Startt_29
+  - first:
+      213: -3121776280129663213
+    second: Startt_30
+  - first:
+      213: 2641602671103461559
+    second: Startt_31
+  - first:
+      213: -7058723018690604388
+    second: Startt_32
+  - first:
+      213: 2087919463066329960
+    second: Startt_33
+  - first:
+      213: -9221370500661849688
+    second: Startt_34
+  - first:
+      213: 3441169716129168340
+    second: Startt_35
+  - first:
+      213: 317311129868878256
+    second: Startt_36
+  - first:
+      213: -1431409345826146273
+    second: Startt_37
+  - first:
+      213: 8734171881025679116
+    second: Startt_38
+  - first:
+      213: 4063205956040188660
+    second: Startt_39
+  - first:
+      213: 39535419839313257
+    second: Startt_40
+  - first:
+      213: 4148726835002852602
+    second: Startt_41
+  - first:
+      213: -3972494067086899302
+    second: Startt_42
+  - first:
+      213: 2220461676373956063
+    second: Startt_43
+  - first:
+      213: 6701072410824537462
+    second: Startt_44
+  - first:
+      213: -2530469377858523605
+    second: Startt_45
+  - first:
+      213: -3696958406405627721
+    second: Startt_46
+  - first:
+      213: -3015447163134423905
+    second: Startt_47
+  - first:
+      213: -6801584390666029783
+    second: Startt_48
+  - first:
+      213: 5463471670011074098
+    second: Startt_49
+  - first:
+      213: 804861432696831925
+    second: Startt_50
+  - first:
+      213: -5883688178414485354
+    second: Startt_51
+  - first:
+      213: 912647160364046340
+    second: Startt_52
+  - first:
+      213: -1812946315571912465
+    second: Startt_53
+  - first:
+      213: -4297080443048669117
+    second: Startt_54
+  - first:
+      213: -5259070551206571966
+    second: Startt_55
+  - first:
+      213: -407618321516874114
+    second: Startt_56
+  - first:
+      213: -8101368105126483552
+    second: Startt_57
+  - first:
+      213: -8511028106034905882
+    second: Startt_58
+  - first:
+      213: 2775891333623925569
+    second: Startt_59
+  - first:
+      213: 4384769796510318138
+    second: Startt_60
+  - first:
+      213: -7471029274747653763
+    second: Startt_61
+  - first:
+      213: 8696628968415351739
+    second: Startt_62
+  - first:
+      213: 7640937380757263265
+    second: Startt_63
+  - first:
+      213: 3035741674813762160
+    second: Startt_64
+  - first:
+      213: 7826990613018200922
+    second: Startt_65
+  - first:
+      213: 4194355320532591474
+    second: Startt_66
+  - first:
+      213: 627847619653988025
+    second: Startt_67
+  - first:
+      213: 7460693497189613135
+    second: Startt_68
+  - first:
+      213: 8935384257659565719
+    second: Startt_69
+  - first:
+      213: -7760298144797790821
+    second: Startt_70
+  - first:
+      213: -520463669830612359
+    second: Startt_71
+  - first:
+      213: -2912656564382031488
+    second: Startt_72
+  - first:
+      213: -6070613195640741438
+    second: Startt_73
+  - first:
+      213: -8209273989414102256
+    second: Startt_74
+  - first:
+      213: 8689002931960830570
+    second: Startt_75
+  - first:
+      213: 5458608392041653631
+    second: Startt_76
+  - first:
+      213: 151063388219564281
+    second: Startt_77
+  - first:
+      213: 3680680576984805570
+    second: Startt_78
+  - first:
+      213: -8258684084470086981
+    second: Startt_79
+  - first:
+      213: -5477374826233943426
+    second: Startt_80
+  - first:
+      213: -6953581807132025057
+    second: Startt_81
+  - first:
+      213: -2644737504356349032
+    second: Startt_82
+  - first:
+      213: 4755241027729987323
+    second: Startt_83
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Startt_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2a20788f528a74bae47af25cbaab51
+      internalID: 866422308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Startt_1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a96799403bd46848a7bfb40e777c391
+      internalID: -1624178737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Startt_2
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab90ee4f1cd72eb4ba75314422500feb
+      internalID: -2070554066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Startt_3
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408d98d0ac507cf45896188b7b5d657c
+      internalID: -1355836624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Startt_4
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0b9ce12049c15429fb182d7c3d1178
+      internalID: 1724182727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Startt_5
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916df13c13377b940a240247ac0086c3
+      internalID: -2067707330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Startt_6
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e9f6db7cffad645a806483b08784bd
+      internalID: 2000725659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Startt_7
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024df4100ffbf354eaeb1e90cddc7676
+      internalID: 1373793146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Startt_8
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ae410e26c58ce41b89bceb3eb2aed0
+      internalID: 149396854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Startt_9
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bf49a145e92434da52f423b62a1ffe
+      internalID: -1672310005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Startt_10
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc07e8b4251a43449959651594dfa80
+      internalID: -2046234089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Startt_11
+      rect:
+        serializedVersion: 2
+        x: 7040
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429be92138478a14b8618dfb62173a39
+      internalID: -1122304570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Startt_12
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0eefae468c37048a50cac5ce60f0d4
+      internalID: -241238398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Startt_13
+      rect:
+        serializedVersion: 2
+        x: 8320
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbe13f1d76d6fb49be49262bd96b97b
+      internalID: -907919805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Startt_14
+      rect:
+        serializedVersion: 2
+        x: 8960
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c25ab50b9161745b579cb18ea49c39
+      internalID: 424967894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Startt_15
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a47cc5d2fdd4f478c36b398fdc0078
+      internalID: 1089888941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Startt_16
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfc0c0a381dacd499ba9b42b2aaabf9
+      internalID: 778396856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Startt_17
+      rect:
+        serializedVersion: 2
+        x: 10880
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a201cf12fe714a344b565079bae9fa5b
+      internalID: 1538537618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Startt_18
+      rect:
+        serializedVersion: 2
+        x: 11520
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573747d1fd5d0d4429f2c2c78675f6c9
+      internalID: 537580828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Startt_19
+      rect:
+        serializedVersion: 2
+        x: 12160
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153d534edd8d23b4299252be0d4b0f3f
+      internalID: -1733658758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Startt_20
+      rect:
+        serializedVersion: 2
+        x: 12800
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d4046a8a3eb9647b1ab6ea58c1fe81
+      internalID: -1916949109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Startt_21
+      rect:
+        serializedVersion: 2
+        x: 13440
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2792051fdccfd4e9f353aa009dc52c
+      internalID: 983207025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 26f3550861c885a42b25862f03f46ad8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Startt_0: 866422308
+      Startt_1: -1624178737
+      Startt_10: -2046234089
+      Startt_11: -1122304570
+      Startt_12: -241238398
+      Startt_13: -907919805
+      Startt_14: 424967894
+      Startt_15: 1089888941
+      Startt_16: 778396856
+      Startt_17: 1538537618
+      Startt_18: 537580828
+      Startt_19: -1733658758
+      Startt_2: -2070554066
+      Startt_20: -1916949109
+      Startt_21: 983207025
+      Startt_3: -1355836624
+      Startt_4: 1724182727
+      Startt_5: -2067707330
+      Startt_6: 2000725659
+      Startt_7: 1373793146
+      Startt_8: 149396854
+      Startt_9: -1672310005
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

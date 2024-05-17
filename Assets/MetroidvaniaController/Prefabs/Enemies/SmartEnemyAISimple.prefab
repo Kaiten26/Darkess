@@ -116,6 +116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   life: 15
   speed: 5
+  patrolSpeed: 2
   isInvincible: 0
   m_DashForce: 25
   enemy: {fileID: 0}
@@ -123,7 +124,11 @@ MonoBehaviour:
   rangeDist: 5
   dmgValue: 4
   throwableObject: {fileID: 5532974359214069763, guid: c928b20c45c6dcd458c1b9a8c6226d54, type: 3}
-  soulPrefab: {fileID: 0}
+  soulPrefab: {fileID: 4295793286028949867, guid: 6ae8b14fdc4c87341b2af27437e6ffc8, type: 3}
+  proximityDistance: 10
+  patrolRange: 5
+  patrolRangeColor: {r: 0, g: 0, b: 1, a: 1}
+  proximityRangeColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!212 &212832719579855464
 SpriteRenderer:
   m_ObjectHideFlags: 0

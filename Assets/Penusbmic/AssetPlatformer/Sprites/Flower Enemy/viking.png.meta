@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      viking_0: -7684046354676129167
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
