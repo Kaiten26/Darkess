@@ -19,7 +19,7 @@ public class SoulScript : MonoBehaviour
         if (isSpawning) return; // Si déjà en train de spawn, sortir
 
         // Vérifier si le joueur est à portée et si le joueur appuie sur 'E'
-        if (Vector3.Distance(player.transform.position, transform.position) <= interactionRange && Input.GetKeyDown(KeyCode.E))
+        if (Vector3.Distance(player.transform.position, transform.position) <= interactionRange && Input.GetKeyDown(KeyCode.V))
         {
             isSpawning = true; // Empêcher les spawns multiples
             StartCoroutine(SpawnAllyAfterDelay(1)); // Appel de la coroutine avec un délai

@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fairy lights tall_0: -1794704186677007617
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

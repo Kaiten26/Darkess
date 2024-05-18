@@ -30,12 +30,18 @@ public class Allies : MonoBehaviour
     private Transform attackCheck;
     public float dmgValue = 4;
 
+    public float attackSpeed = 1f; // Vitesse d'attaque
+
     public GameObject throwableObject;
 
     private float randomDecision = 0;
     private bool doOnceDecision = true;
     private bool endDecision = false;
     private Animator anim;
+
+    // Liste de hitboxes pour les attaques
+    public List<Transform> attackHitboxes = new List<Transform>();
+    public float attackRange = 1f; // Portée de l'attaque
 
     void Awake()
     {
@@ -81,7 +87,7 @@ public class Allies : MonoBehaviour
                         Flip();
                     if (canAttack)
                     {
-                        MeleeAttack();
+                        StartCoroutine(PerformAttack());
                     }
                 }
                 else if (Mathf.Abs(distToTarget) > meleeDist && Mathf.Abs(distToTarget) < rangeDist)
@@ -96,16 +102,10 @@ public class Allies : MonoBehaviour
                         if ((distToTarget > 0f && transform.localScale.x < 0f) || (distToTarget < 0f && transform.localScale.x > 0f))
                             Flip();
 
-                        if (randomDecision < 0.4f)
-                            Run();
-                        else if (randomDecision >= 0.4f && randomDecision < 0.6f)
-                            Jump();
-                        else if (randomDecision >= 0.6f && randomDecision < 0.8f)
-                            StartCoroutine(Dash());
-                        else if (randomDecision >= 0.8f && randomDecision < 0.95f)
-                            RangeAttack();
-                        else
-                            Idle();
+                        Run();
+                        Jump();
+                        StartCoroutine(Dash());
+                        Idle();
                     }
                     else
                     {
@@ -143,7 +143,6 @@ public class Allies : MonoBehaviour
             // ... flip the ally.
             Flip();
         }
-        // Otherwise if the input is moving the ally left and the ally is facing right...
         else if (transform.localScale.x * m_Rigidbody2D.velocity.x < 0 && m_FacingRight && life > 0)
         {
             // ... flip the ally.
@@ -153,10 +152,7 @@ public class Allies : MonoBehaviour
 
     void Flip()
     {
-        // Switch the way the ally is labelled as facing.
         facingRight = !facingRight;
-
-        // Multiply the ally's x local scale by -1.
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
@@ -168,7 +164,7 @@ public class Allies : MonoBehaviour
         {
             float direction = damage / Mathf.Abs(damage);
             damage = Mathf.Abs(damage);
-            anim.SetBool("Hit", true);
+            anim.SetTrigger("Hit");  // Update this line
             life -= damage;
             transform.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
             transform.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(direction * 300f, 100f));
@@ -176,34 +172,34 @@ public class Allies : MonoBehaviour
         }
     }
 
-    public void MeleeAttack()
+    IEnumerator PerformAttack()
     {
-        transform.GetComponent<Animator>().SetBool("Attack", true);
-        Collider2D[] collidersEnemies = Physics2D.OverlapCircleAll(attackCheck.position, 0.9f);
-        for (int i = 0; i < collidersEnemies.Length; i++)
-        {
-            if (collidersEnemies[i].gameObject.tag == "Enemy" && collidersEnemies[i].gameObject != gameObject)
-            {
-                if (transform.localScale.x < 1)
-                {
-                    dmgValue = -dmgValue;
-                }
-                collidersEnemies[i].gameObject.SendMessage("ApplyDamage", dmgValue);
-            }
-        }
-        StartCoroutine(WaitToAttack(0.5f));
+        anim.SetTrigger("Attack");
+        yield return new WaitForSeconds(0.6f); // Attendre la frame 6 à 10 FPS
+        ActivateHitboxes();
+        yield return new WaitForSeconds(0.4f); // Attendre la fin de l'attaque
+        DeactivateHitboxes();
+        StartCoroutine(WaitToAttack(1f / attackSpeed));
     }
 
-    public void RangeAttack()
+    void ActivateHitboxes()
     {
-        if (doOnceDecision)
+        foreach (Transform hitbox in attackHitboxes)
         {
-            GameObject throwableProj = Instantiate(throwableObject, transform.position + new Vector3(transform.localScale.x * 0.5f, -0.2f), Quaternion.identity) as GameObject;
-            throwableProj.GetComponent<ThrowableProjectile>().owner = gameObject;
-            Vector2 direction = new Vector2(transform.localScale.x, 0f);
-            throwableProj.GetComponent<ThrowableProjectile>().direction = direction;
-            StartCoroutine(NextDecision(0.5f));
+            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(hitbox.position, attackRange);
+            foreach (Collider2D hitEnemy in hitEnemies)
+            {
+                if (hitEnemy.tag == "Enemy")
+                {
+                    hitEnemy.GetComponent<SmartEnemy>().ApplyDamage(dmgValue);
+                }
+            }
         }
+    }
+
+    void DeactivateHitboxes()
+    {
+        // Cette fonction peut être utilisée pour désactiver les hitboxes si nécessaire
     }
 
     public void Run()
@@ -235,6 +231,11 @@ public class Allies : MonoBehaviour
 
     public void FollowTarget(GameObject target)
     {
+        if (life <= 0)
+        {
+            return;
+        }
+
         distToTarget = target.transform.position.x - transform.position.x;
         distToTargetY = target.transform.position.y - transform.position.y;
 
@@ -275,10 +276,11 @@ public class Allies : MonoBehaviour
 
     IEnumerator Dash()
     {
-        anim.SetBool("IsDashing", true);
+        anim.SetTrigger("StartDash");  // Update this line
         isDashing = true;
         yield return new WaitForSeconds(0.1f);
         isDashing = false;
+        anim.ResetTrigger("StartDash");  // Update this line
         EndDecision();
     }
 
@@ -293,6 +295,8 @@ public class Allies : MonoBehaviour
 
     IEnumerator DestroyAlly()
     {
+        m_Rigidbody2D.constraints = RigidbodyConstraints2D.FreezePosition;
+
         CapsuleCollider2D capsule = GetComponent<CapsuleCollider2D>();
         capsule.size = new Vector2(1f, 0.25f);
         capsule.offset = new Vector2(0f, -0.8f);
@@ -302,12 +306,14 @@ public class Allies : MonoBehaviour
         m_Rigidbody2D.velocity = new Vector2(0, m_Rigidbody2D.velocity.y);
         yield return new WaitForSeconds(1f);
 
+        StopAllCoroutines();
         Destroy(gameObject);
     }
 
     IEnumerator LifeSpan(float duration)
     {
         yield return new WaitForSeconds(duration);
+        life = 0; // Met les points de vie à zéro
         StartCoroutine(DestroyAlly());
     }
 
@@ -345,6 +351,16 @@ public class Allies : MonoBehaviour
             {
                 Jump();
             }
+        }
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        // Dessine les hitboxes d'attaque
+        Gizmos.color = Color.green;
+        foreach (Transform hitbox in attackHitboxes)
+        {
+            Gizmos.DrawWireSphere(hitbox.position, attackRange);
         }
     }
 }

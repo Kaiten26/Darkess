@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4403053247222770}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: WallCheck
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4814588324006016}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: FallCheck
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -77,7 +77,7 @@ GameObject:
   - component: {fileID: 50760522753152062}
   - component: {fileID: 95874158880099268}
   - component: {fileID: 82229625843168448}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: SmartEnemyAISimple
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -100,6 +100,8 @@ Transform:
   - {fileID: 4403053247222770}
   - {fileID: 4814588324006016}
   - {fileID: 4592243529166056}
+  - {fileID: 7565242282480088233}
+  - {fileID: 5338843236543028404}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &114177091046159370
@@ -119,11 +121,16 @@ MonoBehaviour:
   patrolSpeed: 2
   isInvincible: 0
   m_DashForce: 25
-  enemy: {fileID: 0}
   meleeDist: 1.5
   rangeDist: 5
   dmgValue: 4
-  throwableObject: {fileID: 5532974359214069763, guid: c928b20c45c6dcd458c1b9a8c6226d54, type: 3}
+  target: {fileID: 0}
+  attackSpeed: 2
+  attackHitboxes:
+  - {fileID: 7565242282480088233}
+  - {fileID: 5338843236543028404}
+  attackRange: 1
+  attackDamage: 1
   soulPrefab: {fileID: 4295793286028949867, guid: 6ae8b14fdc4c87341b2af27437e6ffc8, type: 3}
   proximityDistance: 10
   patrolRange: 5
@@ -172,7 +179,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1997206540, guid: caaed347041290e4daceb1d2fb180e9f, type: 3}
+  m_Sprite: {fileID: 1212552930, guid: 0b4c3ac9d547b61448900b57d73c2859, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -375,7 +382,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4592243529166056}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: AttackCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -392,6 +399,68 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.6, y: -0.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4633865963506118}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2938225130330232856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5338843236543028404}
+  m_Layer: 6
+  m_Name: Hitbox (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5338843236543028404
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2938225130330232856}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.058, y: -0.103, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4633865963506118}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6106693402774890961
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7565242282480088233}
+  m_Layer: 6
+  m_Name: Hitbox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7565242282480088233
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6106693402774890961}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.798, y: -0.365, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

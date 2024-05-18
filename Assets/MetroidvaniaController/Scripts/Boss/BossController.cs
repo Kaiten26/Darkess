@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class BossController : MonoBehaviour
 {
+    // Déclarez l'événement de mort du boss
+    public event System.Action OnBossDeath;
+
     public float moveSpeed = 3f;
     public float attackInterval = 2f; // Intervalle entre les cycles d'attaque
-    public float attackCooldown = 5f; // Cooldown entre deux attaques
+    public float attackCooldown = 2f; // Cooldown entre deux attaques
     public float vanishTime = 1f;
     public Transform[] attackPoints;
     public Transform airAttackPoint;
@@ -36,6 +39,15 @@ public class BossController : MonoBehaviour
 
     public GameObject ObjectScript;
 
+    public bool IsDead { get; private set; } = false; // Ajoutez cette ligne
+
+    // Nouvelle variable pour la distance d'arrêt
+    public float stoppingDistance = 1.5f;
+
+    // Ajout pour l'audio
+    public AudioSource audioSource; // Référence au composant AudioSource
+    public float fadeOutDuration = 1f; // Durée du fondu de la musique
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -43,6 +55,7 @@ public class BossController : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
         currentHP = maxHP;
         lastAttackTime = -attackCooldown; // Initialisation pour permettre une attaque immédiate
+        StartCoroutine(AttackCycle());
     }
 
     void Update()
@@ -62,17 +75,29 @@ public class BossController : MonoBehaviour
     {
         if (player != null)
         {
-            Vector2 direction = (player.position - transform.position).normalized;
-            rb.velocity = direction * moveSpeed;
+            // Vérifiez la distance entre le boss et le joueur
+            float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
-            // Flip le boss en direction du joueur
-            if (direction.x > 0)
+            if (distanceToPlayer > stoppingDistance)
             {
-                transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+                Vector2 direction = (player.position - transform.position).normalized;
+                rb.velocity = direction * moveSpeed;
+
+                // Flip le boss en direction du joueur
+                if (direction.x > 0)
+                {
+                    transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+                }
+                else if (direction.x < 0)
+                {
+                    transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+                }
             }
-            else if (direction.x < 0)
+            else
             {
-                transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+                // Arrêtez le mouvement si le boss est suffisamment proche du joueur
+                rb.velocity = Vector2.zero;
+                animator.SetBool("Move", false);
             }
         }
     }
@@ -138,8 +163,8 @@ public class BossController : MonoBehaviour
         }
 
         // Déclencher l'animation SlamAttack
-        animator.SetTrigger("VanishSlam");
         animator.SetTrigger("SlamAttack");
+        yield return new WaitForSeconds(0.7f);
 
         // Attaque à la frame 28 (2.8 secondes à 10 FPS)
         yield return new WaitForSeconds(2.8f);
@@ -184,6 +209,7 @@ public class BossController : MonoBehaviour
 
         // Lancer l'animation de VanishAttack
         animator.SetTrigger("VanishAttack");
+        yield return new WaitForSeconds(0.7f);
 
         // Attaque à la frame 2 (0.2 secondes à 10 FPS)
         yield return new WaitForSeconds(0.2f);
@@ -290,7 +316,32 @@ public class BossController : MonoBehaviour
         StopAllCoroutines();
         this.enabled = false;
 
+        IsDead = true; // Ajoutez cette ligne
+
+        // Invoquer l'événement de mort du boss
+        OnBossDeath?.Invoke();
+
+        // Lancer le fondu de la musique
+        if (audioSource != null)
+        {
+            StartCoroutine(FadeOutMusic());
+        }
+
         isVanishing = false;
         // Le boss ne bouge plus après être mort
+    }
+
+    IEnumerator FadeOutMusic()
+    {
+        float startVolume = audioSource.volume;
+
+        while (audioSource.volume > 0)
+        {
+            audioSource.volume -= startVolume * Time.deltaTime / fadeOutDuration;
+            yield return null;
+        }
+
+        audioSource.Stop();
+        audioSource.volume = startVolume; // Reset the volume for potential future use
     }
 }

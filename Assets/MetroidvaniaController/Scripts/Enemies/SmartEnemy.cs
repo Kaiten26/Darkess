@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class SmartEnemy : MonoBehaviour
 {
+    // Event de destruction
+    public delegate void OnDestroyDelegate();
+    public event OnDestroyDelegate OnDestroyEvent;
+
     private Rigidbody2D m_Rigidbody2D;
     private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 
@@ -20,14 +24,22 @@ public class SmartEnemy : MonoBehaviour
     [SerializeField] private float m_DashForce = 25f;
     private bool isDashing = false;
 
-    public GameObject enemy;
-    private float distToPlayer;
-    private float distToPlayerY;
+    private float distToTarget;
+    private float distToTargetY;
     public float meleeDist = 1.5f;
     public float rangeDist = 5f;
     private bool canAttack = true;
     private Transform attackCheck;
     public float dmgValue = 4;
+
+    public GameObject target;  // Cible actuelle de l'ennemi
+
+    public float attackSpeed = 1f; // Vitesse d'attaque
+
+    // Liste de hitboxes pour l'attaque
+    public List<Transform> attackHitboxes = new List<Transform>();
+    public float attackRange = 1f;
+    public float attackDamage = 4f;
 
     // private float randomDecision = 0;
     private bool doOnceDecision = true;
@@ -56,28 +68,16 @@ public class SmartEnemy : MonoBehaviour
         initialPosition = transform.position;
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
-        // Recherche du joueur
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
-
-        if (player != null)
-        {
-            float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
-
-            // Vérifie si le joueur est proche
-            if (distanceToPlayer <= proximityDistance)
-            {
-                enemy = player;
-            }
-        }
+        // Recherche de la cible la plus proche
+        target = FindClosestTarget();
 
         if (life <= 0)
         {
             StartCoroutine(DestroyEnemy());
         }
-        else if (enemy != null)
+        else if (target != null)
         {
             if (isDashing)
             {
@@ -85,43 +85,39 @@ public class SmartEnemy : MonoBehaviour
             }
             else if (!isHitted)
             {
-                distToPlayer = enemy.transform.position.x - transform.position.x;
-                distToPlayerY = enemy.transform.position.y - transform.position.y;
+                distToTarget = target.transform.position.x - transform.position.x;
+                distToTargetY = target.transform.position.y - transform.position.y;
 
-                if (Mathf.Abs(distToPlayer) < 0.25f)
+                if (Mathf.Abs(distToTarget) < 0.25f)
                 {
                     GetComponent<Rigidbody2D>().velocity = new Vector2(0f, m_Rigidbody2D.velocity.y);
                     anim.SetBool("IsWaiting", true);
                 }
-                else if (Mathf.Abs(distToPlayer) > 0.25f && Mathf.Abs(distToPlayer) < meleeDist && Mathf.Abs(distToPlayerY) < 2f)
+                else if (Mathf.Abs(distToTarget) > 0.25f && Mathf.Abs(distToTarget) < meleeDist && Mathf.Abs(distToTargetY) < 2f)
                 {
                     GetComponent<Rigidbody2D>().velocity = new Vector2(0f, m_Rigidbody2D.velocity.y);
-                    if ((distToPlayer > 0f && transform.localScale.x < 0f) || (distToPlayer < 0f && transform.localScale.x > 0f))
+                    if ((distToTarget > 0f && transform.localScale.x < 0f) || (distToTarget < 0f && transform.localScale.x > 0f))
                         Flip();
                     if (canAttack)
                     {
-                        MeleeAttack();
+                        StartCoroutine(Attack());
                     }
                 }
-                else if (Mathf.Abs(distToPlayer) > meleeDist && Mathf.Abs(distToPlayer) < rangeDist)
+                else if (Mathf.Abs(distToTarget) > meleeDist && Mathf.Abs(distToTarget) < rangeDist)
                 {
                     anim.SetBool("IsWaiting", false);
-                    m_Rigidbody2D.velocity = new Vector2(distToPlayer / Mathf.Abs(distToPlayer) * speed, m_Rigidbody2D.velocity.y);
+                    m_Rigidbody2D.velocity = new Vector2(distToTarget / Mathf.Abs(distToTarget) * speed, m_Rigidbody2D.velocity.y);
                 }
                 else
                 {
                     if (!endDecision)
                     {
-                        if ((distToPlayer > 0f && transform.localScale.x < 0f) || (distToPlayer < 0f && transform.localScale.x > 0f))
+                        if ((distToTarget > 0f && transform.localScale.x < 0f) || (distToTarget < 0f && transform.localScale.x > 0f))
                             Flip();
 
-                        // if (randomDecision < 0.4f)
                         Run();
-                        // else if (randomDecision >= 0.4f && randomDecision < 0.6f)
                         Jump();
-                        // else if (randomDecision >= 0.6f && randomDecision < 0.8f)
                         StartCoroutine(Dash());
-                        // else
                         Idle();
                     }
                     else
@@ -132,7 +128,7 @@ public class SmartEnemy : MonoBehaviour
             }
             else if (isHitted)
             {
-                if ((distToPlayer > 0f && transform.localScale.x > 0f) || (distToPlayer < 0f && transform.localScale.x < 0f))
+                if ((distToTarget > 0f && transform.localScale.x > 0f) || (distToTarget < 0f && transform.localScale.x < 0f))
                 {
                     Flip();
                     StartCoroutine(Dash());
@@ -154,11 +150,49 @@ public class SmartEnemy : MonoBehaviour
             Flip();
         }
 
-        // Si aucun joueur n'est proche, patrouiller
-        if (enemy == null)
+        // Si aucune cible n'est proche, patrouiller
+        if (target == null)
         {
             Patrol();
         }
+    }
+
+    GameObject FindClosestTarget()
+    {
+        GameObject closestTarget = null;
+        float closestDistance = Mathf.Infinity;
+
+        // Recherche du joueur
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
+            if (distanceToPlayer < closestDistance)
+            {
+                closestDistance = distanceToPlayer;
+                closestTarget = player;
+            }
+        }
+
+        // Recherche des alliés
+        GameObject[] allies = GameObject.FindGameObjectsWithTag("Allies");
+        foreach (GameObject ally in allies)
+        {
+            float distanceToAlly = Vector3.Distance(transform.position, ally.transform.position);
+            if (distanceToAlly < closestDistance)
+            {
+                closestDistance = distanceToAlly;
+                closestTarget = ally;
+            }
+        }
+
+        // Vérifie si la cible la plus proche est dans la distance de proximité
+        if (closestDistance <= proximityDistance)
+        {
+            return closestTarget;
+        }
+
+        return null;
     }
 
     void Patrol()
@@ -200,7 +234,7 @@ public class SmartEnemy : MonoBehaviour
         {
             float direction = damage / Mathf.Abs(damage);
             damage = Mathf.Abs(damage);
-            anim.SetBool("Hit", true);
+            anim.SetTrigger("Hit");  // Update this line
             life -= damage;
             transform.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
             transform.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(direction * 300f, 100f));
@@ -208,38 +242,47 @@ public class SmartEnemy : MonoBehaviour
         }
     }
 
-    public void MeleeAttack()
+    IEnumerator Attack()
     {
-        transform.GetComponent<Animator>().SetBool("Attack", true);
-        Collider2D[] collidersEnemies = Physics2D.OverlapCircleAll(attackCheck.position, 0.9f);
-        for (int i = 0; i < collidersEnemies.Length; i++)
+        canAttack = false;
+        anim.SetTrigger("Attack");
+
+        // Attendre jusqu'à la frame 6 (0.6 secondes à 10 FPS)
+        yield return new WaitForSeconds(0.6f);
+
+        PerformAttack();
+
+        // Attendre que l'attaque soit terminée (1 seconde en total à 10 FPS)
+        yield return new WaitForSeconds(0.4f);
+
+        canAttack = true;
+    }
+
+    void PerformAttack()
+    {
+        foreach (Transform hitbox in attackHitboxes)
         {
-            if (collidersEnemies[i].gameObject.tag == "Enemy" && collidersEnemies[i].gameObject != gameObject)
+            Collider2D[] hitTargets = Physics2D.OverlapCircleAll(hitbox.position, attackRange);
+            foreach (Collider2D target in hitTargets)
             {
-                if (transform.localScale.x < 1)
+                if (target.tag == "Player" || target.tag == "Allies")
                 {
-                    dmgValue = -dmgValue;
+                    target.GetComponent<CharacterController2D>().ApplyDamage(attackDamage, transform.position);
                 }
-                collidersEnemies[i].gameObject.SendMessage("ApplyDamage", dmgValue);
-            }
-            else if (collidersEnemies[i].gameObject.tag == "Player")
-            {
-                collidersEnemies[i].gameObject.GetComponent<CharacterController2D>().ApplyDamage(2f, transform.position);
             }
         }
-        StartCoroutine(WaitToAttack(0.5f));
     }
 
     public void Run()
     {
         anim.SetBool("IsWaiting", false);
-        m_Rigidbody2D.velocity = new Vector2(distToPlayer / Mathf.Abs(distToPlayer) * speed, m_Rigidbody2D.velocity.y);
+        m_Rigidbody2D.velocity = new Vector2(distToTarget / Mathf.Abs(distToTarget) * speed, m_Rigidbody2D.velocity.y);
         if (doOnceDecision)
             StartCoroutine(NextDecision(0.5f));
     }
     public void Jump()
     {
-        Vector3 targetVelocity = new Vector2(distToPlayer / Mathf.Abs(distToPlayer) * speed, m_Rigidbody2D.velocity.y);
+        Vector3 targetVelocity = new Vector2(distToTarget / Mathf.Abs(distToTarget) * speed, m_Rigidbody2D.velocity.y);
         Vector3 velocity = Vector3.zero;
         m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref velocity, 0.05f);
         if (doOnceDecision)
@@ -262,7 +305,7 @@ public class SmartEnemy : MonoBehaviour
 
     public void EndDecision()
     {
-        //randomDecision = Random.Range(0.0f, 1.0f);
+        // randomDecision = Random.Range(0.0f, 1.0f);
         endDecision = true;
     }
 
@@ -275,19 +318,13 @@ public class SmartEnemy : MonoBehaviour
         isInvincible = false;
     }
 
-    IEnumerator WaitToAttack(float time)
-    {
-        canAttack = false;
-        yield return new WaitForSeconds(time);
-        canAttack = true;
-    }
-
     IEnumerator Dash()
     {
-        anim.SetBool("IsDashing", true);
+        anim.SetTrigger("StartDash");  // Update this line
         isDashing = true;
         yield return new WaitForSeconds(0.1f);
         isDashing = false;
+        anim.ResetTrigger("StartDash");  // Update this line
         EndDecision();
     }
 
@@ -315,6 +352,9 @@ public class SmartEnemy : MonoBehaviour
         Instantiate(soulPrefab, transform.position, Quaternion.identity);
 
         Destroy(gameObject);
+
+        // Invoke OnDestroyEvent when the enemy is destroyed
+        OnDestroyEvent?.Invoke();
     }
 
     // Méthode pour dessiner les gizmos dans l'éditeur
@@ -327,5 +367,12 @@ public class SmartEnemy : MonoBehaviour
         // Dessine la portée de détection en rouge
         Gizmos.color = proximityRangeColor;
         Gizmos.DrawWireSphere(transform.position, proximityDistance);
+
+        // Dessine les hitboxes d'attaque
+        Gizmos.color = Color.green;
+        foreach (Transform hitbox in attackHitboxes)
+        {
+            Gizmos.DrawWireSphere(hitbox.position, attackRange);
+        }
     }
 }
