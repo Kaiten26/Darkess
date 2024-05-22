@@ -892,6 +892,7 @@ ScriptedImporter:
     cells:
     - name: hot wheel dark_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
@@ -900,6 +901,7 @@ ScriptedImporter:
       spriteId: a44693e1ada27564c866e3be324adccd
     - name: hot wheel dark_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
@@ -908,6 +910,7 @@ ScriptedImporter:
       spriteId: 41b012bd854e23643a79f0f11c2999b7
     - name: hot wheel dark_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
@@ -916,6 +919,7 @@ ScriptedImporter:
       spriteId: 4b53e1c60733eb3449dda005d75ca4c1
     - name: hot wheel dark_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
@@ -924,6 +928,7 @@ ScriptedImporter:
       spriteId: a1d443c0fc0293d4ab667c5f84d86b6b
     - name: hot wheel dark_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
@@ -932,6 +937,7 @@ ScriptedImporter:
       spriteId: 54bd0c9dd7bbcaa49a7c9991a1078a59
     - name: hot wheel dark_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
@@ -940,6 +946,7 @@ ScriptedImporter:
       spriteId: a1729691c6badd94bacd91c216232058
     - name: hot wheel dark_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
@@ -948,6 +955,7 @@ ScriptedImporter:
       spriteId: f5baa26a857deb546935af46df1c5b4b
     - name: hot wheel dark_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 1
@@ -956,6 +964,7 @@ ScriptedImporter:
       spriteId: 8ff5d84e00fc8ce4cbbfc6c8e8328767
     - name: hot wheel dark_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 1
@@ -964,6 +973,7 @@ ScriptedImporter:
       spriteId: 3e3a35a1297ba094694a2654dfb2ef42
     - name: hot wheel dark_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 1
@@ -972,6 +982,7 @@ ScriptedImporter:
       spriteId: 50b65941d9b69034abcaac1ba03f7562
     - name: hot wheel dark_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 1
@@ -980,6 +991,7 @@ ScriptedImporter:
       spriteId: b4fd65c9f00cd3148bcf1953e556c881
     - name: hot wheel dark_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 1
@@ -988,6 +1000,7 @@ ScriptedImporter:
       spriteId: 6b0b9685cf975e24395aaecb651f16d0
     - name: hot wheel dark_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 1
@@ -996,6 +1009,7 @@ ScriptedImporter:
       spriteId: 40b866ef4c7556344874c4fde8efcac9
     - name: hot wheel dark_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 1
@@ -1004,6 +1018,7 @@ ScriptedImporter:
       spriteId: df0f010eca075014882a5308456da60b
     - name: hot wheel dark_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 1
@@ -1012,6 +1027,7 @@ ScriptedImporter:
       spriteId: 5f27e1feed835ed4f889301222b0743c
     - name: hot wheel dark_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
@@ -1020,6 +1036,7 @@ ScriptedImporter:
       spriteId: 4e4cd6e7ed0c4c54aa8b110b56a58b5a
     - name: hot wheel dark_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
@@ -1028,6 +1045,7 @@ ScriptedImporter:
       spriteId: d2786b43a7e5a0145867306c24a21b33
     - name: hot wheel dark_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
@@ -1036,6 +1054,7 @@ ScriptedImporter:
       spriteId: 86b42bb52aae9a849ade94060a8531da
     - name: hot wheel dark_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
@@ -1044,6 +1063,7 @@ ScriptedImporter:
       spriteId: 20126911f9d2f8444a3a9359d6c8dd9b
     - name: hot wheel dark_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
@@ -1052,6 +1072,7 @@ ScriptedImporter:
       spriteId: be53faee10aa0534ebcb626252b228e8
     - name: hot wheel dark_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 1
@@ -1060,6 +1081,7 @@ ScriptedImporter:
       spriteId: 42306c1052b0e54478cc37b1a1259996
     - name: hot wheel dark_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
@@ -1068,6 +1090,7 @@ ScriptedImporter:
       spriteId: 23730b58aae0acb46a4d06cd4835c4ec
     - name: hot wheel dark_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
@@ -1076,6 +1099,7 @@ ScriptedImporter:
       spriteId: 5660afd470dbae14195afebfd13323fa
     - name: hot wheel dark_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 1
@@ -1084,6 +1108,7 @@ ScriptedImporter:
       spriteId: f559479cb2926e840bd29cbef2652ce4
     - name: hot wheel dark_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 1
@@ -1092,6 +1117,7 @@ ScriptedImporter:
       spriteId: cf132e4972ba87347bb71e0c3a12f0df
     - name: hot wheel dark_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 29
         y: 0
@@ -1100,6 +1126,7 @@ ScriptedImporter:
       spriteId: 6c6c136e0972d1f4289f60ca3081035b
     - name: hot wheel dark_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 29
         y: 1
@@ -1108,6 +1135,7 @@ ScriptedImporter:
       spriteId: f18f77ffacaf2ed488d5957a4765c567
     - name: hot wheel dark_Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 29
         y: 1
@@ -1116,6 +1144,7 @@ ScriptedImporter:
       spriteId: c02260cd263a1294b93ace2d224e2df3
     - name: hot wheel dark_Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 85
         y: 1
@@ -1124,6 +1153,7 @@ ScriptedImporter:
       spriteId: 5af79bdae1fe2f941b3da96a50212545
     - name: hot wheel dark_Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
@@ -1132,6 +1162,7 @@ ScriptedImporter:
       spriteId: e50d1ba5333ce994d8c2263060cddcf5
     - name: hot wheel dark_Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
@@ -1140,6 +1171,7 @@ ScriptedImporter:
       spriteId: 1d37fe37e49391249b6dc9fc51fe3a08
     - name: hot wheel dark_Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 1
@@ -1148,6 +1180,7 @@ ScriptedImporter:
       spriteId: 6610ecb3c556c5b4c900c31e12136bc5
     - name: hot wheel dark_Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 1
@@ -1156,6 +1189,7 @@ ScriptedImporter:
       spriteId: bf4128704bad0a2439a8b096fab7d2d6
     - name: hot wheel dark_Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 1
@@ -1164,6 +1198,7 @@ ScriptedImporter:
       spriteId: 3997aebaaaa689846aa71b4b7c92888f
     - name: hot wheel dark_Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 1
@@ -1172,6 +1207,7 @@ ScriptedImporter:
       spriteId: 0e077c60763367c41af7149c8fba7891
     - name: hot wheel dark_Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 1
@@ -1180,6 +1216,7 @@ ScriptedImporter:
       spriteId: 92b9f290b884579478a2e6f2bae446df
     - name: hot wheel dark_Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 1
@@ -1188,6 +1225,7 @@ ScriptedImporter:
       spriteId: 110d13ba6b14566458d0a56bd33cbc32
     - name: hot wheel dark_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 1

@@ -432,6 +432,7 @@ ScriptedImporter:
     cells:
     - name: door_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -440,6 +441,7 @@ ScriptedImporter:
       spriteId: 120cddf57b9b2444787bde18efca3773
     - name: door_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -448,6 +450,7 @@ ScriptedImporter:
       spriteId: bb44d5a00e0176a4c8a7e90e69cc066d
     - name: door_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -456,6 +459,7 @@ ScriptedImporter:
       spriteId: 98afe677a235e3340acd9e8d2dcfd57a
     - name: door_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -464,6 +468,7 @@ ScriptedImporter:
       spriteId: 77a76c0db35724c4caa22e1cb633d546
     - name: door_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -472,6 +477,7 @@ ScriptedImporter:
       spriteId: d001ea96872919948a71218bb1a13db2
     - name: door_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -480,6 +486,7 @@ ScriptedImporter:
       spriteId: f99579b957d35414e886dabbe6598db8
     - name: door_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -488,6 +495,7 @@ ScriptedImporter:
       spriteId: fedea052c9eab4c4f84de86c58f61255
     - name: door_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -496,6 +504,7 @@ ScriptedImporter:
       spriteId: 3fc7e31675e33f44fbef6ed9f69c0104
     - name: door_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -504,6 +513,7 @@ ScriptedImporter:
       spriteId: c03d28fe25af9bb44bd5c628264071aa
     - name: door_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -512,6 +522,7 @@ ScriptedImporter:
       spriteId: 8d3e016ee7d05de4ab45105c2f2de309
     - name: door_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
@@ -520,6 +531,7 @@ ScriptedImporter:
       spriteId: 7eac97ea9573653479cd8b1a07a55a6c
     - name: door_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -528,6 +540,7 @@ ScriptedImporter:
       spriteId: 91f779aa049328440885bb73708b1c75
     - name: door_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -536,6 +549,7 @@ ScriptedImporter:
       spriteId: de6e6fd2a41b2ce4b86c79f14a258b32
     - name: door_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -544,6 +558,7 @@ ScriptedImporter:
       spriteId: 7188f82ceeb0a3b4db999b332afccd7e
     - name: door_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0

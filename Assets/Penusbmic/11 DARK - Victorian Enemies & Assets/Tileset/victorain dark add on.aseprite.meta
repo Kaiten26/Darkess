@@ -160,6 +160,7 @@ ScriptedImporter:
     cells:
     - name: victorain dark add on
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0

@@ -912,6 +912,7 @@ ScriptedImporter:
     cells:
     - name: Air Attack Slam - different sprite size_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 89
         y: 51
@@ -920,6 +921,7 @@ ScriptedImporter:
       spriteId: f8f06626d2a460c46a7f748178f714b8
     - name: Air Attack Slam - different sprite size_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 89
         y: 51
@@ -928,6 +930,7 @@ ScriptedImporter:
       spriteId: a1922411ebcd4c645bbb37b8da127bce
     - name: Air Attack Slam - different sprite size_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 89
         y: 50
@@ -936,6 +939,7 @@ ScriptedImporter:
       spriteId: ad4c38bf9a93397489e2d25a34cc4ae8
     - name: Air Attack Slam - different sprite size_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 89
         y: 51
@@ -944,6 +948,7 @@ ScriptedImporter:
       spriteId: 791511c666ebce143a914e58af57548e
     - name: Air Attack Slam - different sprite size_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 89
         y: 51
@@ -952,6 +957,7 @@ ScriptedImporter:
       spriteId: a832a74ebf816fb4cadc80cd9ede1724
     - name: Air Attack Slam - different sprite size_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 89
         y: 51
@@ -960,6 +966,7 @@ ScriptedImporter:
       spriteId: 3a0035d81b361e5479c997068d3bf2a5
     - name: Air Attack Slam - different sprite size_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 89
         y: 50
@@ -968,6 +975,7 @@ ScriptedImporter:
       spriteId: bbfdd0c53c1e4824daa1c1102fed0015
     - name: Air Attack Slam - different sprite size_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 89
         y: 50
@@ -976,6 +984,7 @@ ScriptedImporter:
       spriteId: a80ef0c055fa1d64d890af7242cdba74
     - name: Air Attack Slam - different sprite size_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 89
         y: 50
@@ -984,6 +993,7 @@ ScriptedImporter:
       spriteId: f4d82839b89ac724f9d01d7f9da312fb
     - name: Air Attack Slam - different sprite size_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 89
         y: 58
@@ -992,6 +1002,7 @@ ScriptedImporter:
       spriteId: 883ae45537df11147b91f4e62a6fa7ab
     - name: Air Attack Slam - different sprite size_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 89
         y: 58
@@ -1000,6 +1011,7 @@ ScriptedImporter:
       spriteId: 93cdfa0d4c0da234e8d7d713400f424a
     - name: Air Attack Slam - different sprite size_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 89
         y: 58
@@ -1008,6 +1020,7 @@ ScriptedImporter:
       spriteId: 2dd892545dcbe3f46b41d2ac356698a7
     - name: Air Attack Slam - different sprite size_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 89
         y: 58
@@ -1016,6 +1029,7 @@ ScriptedImporter:
       spriteId: 23e2a0139672ab04ab0cf6645fd1cbd7
     - name: Air Attack Slam - different sprite size_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 89
         y: 58
@@ -1024,6 +1038,7 @@ ScriptedImporter:
       spriteId: 4da02620a971779429142ba493b026ef
     - name: Air Attack Slam - different sprite size_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 89
         y: 26
@@ -1032,6 +1047,7 @@ ScriptedImporter:
       spriteId: 082d556815ab7514ba5be5b7b7a96858
     - name: Air Attack Slam - different sprite size_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
@@ -1040,6 +1056,7 @@ ScriptedImporter:
       spriteId: b0b94542dce3f91438fbeec41ee316c3
     - name: Air Attack Slam - different sprite size_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 83
         y: 0
@@ -1048,6 +1065,7 @@ ScriptedImporter:
       spriteId: 6ea295d24419277428173099894b4ee5
     - name: Air Attack Slam - different sprite size_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 81
         y: 0
@@ -1056,6 +1074,7 @@ ScriptedImporter:
       spriteId: b22e742595fdedb4b8be1b69d63aaab4
     - name: Air Attack Slam - different sprite size_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 85
         y: 0
@@ -1064,6 +1083,7 @@ ScriptedImporter:
       spriteId: 46562b9169e91274991cffe8ec5f3473
     - name: Air Attack Slam - different sprite size_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 81
         y: 0
@@ -1072,6 +1092,7 @@ ScriptedImporter:
       spriteId: 19d8cb8e2949e904fb75c5646832103e
     - name: Air Attack Slam - different sprite size_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 76
         y: 0
@@ -1080,6 +1101,7 @@ ScriptedImporter:
       spriteId: 1ea05a6b97066ca438fbdd73f8fcc144
     - name: Air Attack Slam - different sprite size_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 75
         y: 0
@@ -1088,6 +1110,7 @@ ScriptedImporter:
       spriteId: ce77ca9b342b5934aadd8222fd070eba
     - name: Air Attack Slam - different sprite size_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 72
         y: 0
@@ -1096,6 +1119,7 @@ ScriptedImporter:
       spriteId: 76aefa1db65a472418e88ecf93b1505d
     - name: Air Attack Slam - different sprite size_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 91
         y: 0
@@ -1104,6 +1128,7 @@ ScriptedImporter:
       spriteId: c508176f133da6d42a4fc733426900be
     - name: Air Attack Slam - different sprite size_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 0
@@ -1112,6 +1137,7 @@ ScriptedImporter:
       spriteId: 76f50b333318f9d48a22cb5b4442a2d6
     - name: Air Attack Slam - different sprite size_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 0
@@ -1120,6 +1146,7 @@ ScriptedImporter:
       spriteId: 78520d865ad2cb44bb83f5070709cf6f
     - name: Air Attack Slam - different sprite size_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: -7
@@ -1128,6 +1155,7 @@ ScriptedImporter:
       spriteId: 72e3840f943cd1e40bfc722755c97981
     - name: Air Attack Slam - different sprite size_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: -7
@@ -1136,6 +1164,7 @@ ScriptedImporter:
       spriteId: e738c787ca6aced4892d182273970a44
     - name: Air Attack Slam - different sprite size_Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 11
         y: -7
@@ -1144,6 +1173,7 @@ ScriptedImporter:
       spriteId: d8c5a917c070f114a88699392a555366
     - name: Air Attack Slam - different sprite size_Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 19
         y: -7
@@ -1152,6 +1182,7 @@ ScriptedImporter:
       spriteId: 1e5f8b78b9e6256458083c9ce68fcf0e
     - name: Air Attack Slam - different sprite size_Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: -7
@@ -1160,6 +1191,7 @@ ScriptedImporter:
       spriteId: bde24f5f6bfbc9340984810c003abfb8
     - name: Air Attack Slam - different sprite size_Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: -7
@@ -1168,6 +1200,7 @@ ScriptedImporter:
       spriteId: d74a8d3e4830b7347861013ab8b9b55f
     - name: Air Attack Slam - different sprite size_Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: -7
@@ -1176,6 +1209,7 @@ ScriptedImporter:
       spriteId: e3a342c60cc494946bbee05e9ff1e734
     - name: Air Attack Slam - different sprite size_Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: -7
@@ -1184,6 +1218,7 @@ ScriptedImporter:
       spriteId: e16fcd558b371f44198b5b0ed270408d
     - name: Air Attack Slam - different sprite size_Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: -7
@@ -1192,6 +1227,7 @@ ScriptedImporter:
       spriteId: e94dd6f4d1893c2449a30931c530e2e2
     - name: Air Attack Slam - different sprite size_Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: -7
@@ -1200,6 +1236,7 @@ ScriptedImporter:
       spriteId: bc6c43d05f96c714e81b122229301a89
     - name: Air Attack Slam - different sprite size_Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: -7
@@ -1208,6 +1245,7 @@ ScriptedImporter:
       spriteId: b0b83c90e5c31884a9f6bdb70a211b6e
     - name: Air Attack Slam - different sprite size_Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: -7
@@ -1216,6 +1254,7 @@ ScriptedImporter:
       spriteId: 0c24672b6aee24548b313eadb6c97df4
     - name: Air Attack Slam - different sprite size_Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: -7

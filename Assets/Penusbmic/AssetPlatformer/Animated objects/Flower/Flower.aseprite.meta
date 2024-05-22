@@ -252,6 +252,7 @@ ScriptedImporter:
     cells:
     - name: Flower_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -260,6 +261,7 @@ ScriptedImporter:
       spriteId: 894ed19f6924ffc42b64546bb342caad
     - name: Flower_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -268,6 +270,7 @@ ScriptedImporter:
       spriteId: 7bbc83168800c7546a8d027a5b73c260
     - name: Flower_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -276,6 +279,7 @@ ScriptedImporter:
       spriteId: 3417c92d3a3fdf644a08227a4fda5ef9
     - name: Flower_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -284,6 +288,7 @@ ScriptedImporter:
       spriteId: d15ff0cafe0487a428a76646cd5d8d46
     - name: Flower_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -292,6 +297,7 @@ ScriptedImporter:
       spriteId: 19776d3845ae7d740bde94eaef6398b6
     - name: Flower_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0

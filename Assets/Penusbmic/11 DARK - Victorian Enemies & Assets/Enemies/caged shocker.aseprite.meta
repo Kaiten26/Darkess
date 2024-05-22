@@ -1480,6 +1480,7 @@ ScriptedImporter:
     cells:
     - name: caged shocker_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1488,6 +1489,7 @@ ScriptedImporter:
       spriteId: 60897de32089cd840891c4217618653f
     - name: caged shocker_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1496,6 +1498,7 @@ ScriptedImporter:
       spriteId: c0fd6ce52b25a05438a0deafa5ae884d
     - name: caged shocker_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1504,6 +1507,7 @@ ScriptedImporter:
       spriteId: 6c367c7daa19a8a4696b8a55c2abe205
     - name: caged shocker_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1512,6 +1516,7 @@ ScriptedImporter:
       spriteId: 641c0ce7645b45a49af4dcac14e44ab2
     - name: caged shocker_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1520,6 +1525,7 @@ ScriptedImporter:
       spriteId: d0f390bdfb5d16a40a0ec0ed6686e954
     - name: caged shocker_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1528,6 +1534,7 @@ ScriptedImporter:
       spriteId: 6021ae6a408823441ab7599ad544ad4c
     - name: caged shocker_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1536,6 +1543,7 @@ ScriptedImporter:
       spriteId: 149fd84c85ffc744b84964093750cecf
     - name: caged shocker_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1544,6 +1552,7 @@ ScriptedImporter:
       spriteId: e063171c7138d03459694514704ca92c
     - name: caged shocker_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1552,6 +1561,7 @@ ScriptedImporter:
       spriteId: 1c6283064ac73fe45952efdda0806698
     - name: caged shocker_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1560,6 +1570,7 @@ ScriptedImporter:
       spriteId: e22c507ef507b8f40ab0bcaaa1806bad
     - name: caged shocker_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1568,6 +1579,7 @@ ScriptedImporter:
       spriteId: 4395205c5b1b8b740a66af56387ca091
     - name: caged shocker_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1576,6 +1588,7 @@ ScriptedImporter:
       spriteId: b717c0a6fb37e084cb63a3922dc499f3
     - name: caged shocker_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1584,6 +1597,7 @@ ScriptedImporter:
       spriteId: db4c863b86c259e4cace2f98418eeceb
     - name: caged shocker_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1592,6 +1606,7 @@ ScriptedImporter:
       spriteId: 492969b6956c9bf4bb20c23bc6aded73
     - name: caged shocker_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1600,6 +1615,7 @@ ScriptedImporter:
       spriteId: f32181200f6a5c54f93da1712f405114
     - name: caged shocker_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1608,6 +1624,7 @@ ScriptedImporter:
       spriteId: 7dc9f03b60480b64eb1c463f290dc8ec
     - name: caged shocker_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1616,6 +1633,7 @@ ScriptedImporter:
       spriteId: 0d8476d6beef177419b0d3cd550f47cb
     - name: caged shocker_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1624,6 +1642,7 @@ ScriptedImporter:
       spriteId: 0fe6b611b6d91b544aef94a3bce28556
     - name: caged shocker_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1632,6 +1651,7 @@ ScriptedImporter:
       spriteId: 6f95e331cf38a2f4d993af71a5635ee0
     - name: caged shocker_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1640,6 +1660,7 @@ ScriptedImporter:
       spriteId: 71421df88cfa87549aeb83c9f0761936
     - name: caged shocker_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1648,6 +1669,7 @@ ScriptedImporter:
       spriteId: 6d127ef01c5cf9142b57b2a0a42b67db
     - name: caged shocker_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1656,6 +1678,7 @@ ScriptedImporter:
       spriteId: afae3d73eefb9964d9a494c10be94cdc
     - name: caged shocker_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1664,6 +1687,7 @@ ScriptedImporter:
       spriteId: 93fc31a8698680241b51f402877a5411
     - name: caged shocker_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1672,6 +1696,7 @@ ScriptedImporter:
       spriteId: 75c7e041d2744b346a99f03c84f348dd
     - name: caged shocker_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1680,6 +1705,7 @@ ScriptedImporter:
       spriteId: 12d72ec00bdb5c046b227397689fc081
     - name: caged shocker_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1688,6 +1714,7 @@ ScriptedImporter:
       spriteId: aa5fcd6b3caddd345b5ec42466df307c
     - name: caged shocker_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1696,6 +1723,7 @@ ScriptedImporter:
       spriteId: 50b5fb10e149f164fadf3adc1b5c7aad
     - name: caged shocker_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1704,6 +1732,7 @@ ScriptedImporter:
       spriteId: b2bccfc2d7d33fc46bd95bdf7958248c
     - name: caged shocker_Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1712,6 +1741,7 @@ ScriptedImporter:
       spriteId: 2db182c0b9ddef1448cb44289f470c58
     - name: caged shocker_Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1720,6 +1750,7 @@ ScriptedImporter:
       spriteId: f09a2462061e81b45aca4d801b897fc0
     - name: caged shocker_Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1728,6 +1759,7 @@ ScriptedImporter:
       spriteId: c72ad69d3f9854743befd2a1d581ad78
     - name: caged shocker_Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1736,6 +1768,7 @@ ScriptedImporter:
       spriteId: 0d861793bb10b6c4ba72dd8ed2436901
     - name: caged shocker_Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1744,6 +1777,7 @@ ScriptedImporter:
       spriteId: 33d9beda550829b498661d8ed0081da9
     - name: caged shocker_Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1752,6 +1786,7 @@ ScriptedImporter:
       spriteId: 118c03cb3a2ce06479be824354caf91b
     - name: caged shocker_Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1760,6 +1795,7 @@ ScriptedImporter:
       spriteId: b08c9c45daf90d24c8ad25d14bebfaf5
     - name: caged shocker_Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1768,6 +1804,7 @@ ScriptedImporter:
       spriteId: fe55af85d9f0c9441be18ff06d7a5c26
     - name: caged shocker_Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1776,6 +1813,7 @@ ScriptedImporter:
       spriteId: fa5a42665c58569469575cf0497cad16
     - name: caged shocker_Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1784,6 +1822,7 @@ ScriptedImporter:
       spriteId: 9929bc142825f70468bc227e585549c7
     - name: caged shocker_Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1792,6 +1831,7 @@ ScriptedImporter:
       spriteId: ef00cc216fd8ee148a21f8fe48852a9d
     - name: caged shocker_Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1800,6 +1840,7 @@ ScriptedImporter:
       spriteId: 57bf45ff8871a22499f2207b7105f5ef
     - name: caged shocker_Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1808,6 +1849,7 @@ ScriptedImporter:
       spriteId: 055b8c6ed2af75047be38bceffe1f810
     - name: caged shocker_Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1816,6 +1858,7 @@ ScriptedImporter:
       spriteId: f566653a32f541d448d2163216ed198c
     - name: caged shocker_Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1824,6 +1867,7 @@ ScriptedImporter:
       spriteId: 62b2873a62cfa50409d35eee71d75f9f
     - name: caged shocker_Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1832,6 +1876,7 @@ ScriptedImporter:
       spriteId: 83ce2e94fbb5d20468b0e174f3f7b110
     - name: caged shocker_Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1840,6 +1885,7 @@ ScriptedImporter:
       spriteId: 80f488f45d51e09448d32e91065ef29a
     - name: caged shocker_Frame_45
       frameIndex: 45
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1848,6 +1894,7 @@ ScriptedImporter:
       spriteId: dab00c683b85c0b42adb63a2f25db611
     - name: caged shocker_Frame_46
       frameIndex: 46
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1856,6 +1903,7 @@ ScriptedImporter:
       spriteId: 083ffbd243bb84b4c82d8c6e4432c05e
     - name: caged shocker_Frame_47
       frameIndex: 47
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1864,6 +1912,7 @@ ScriptedImporter:
       spriteId: 2c2c3d3e0d2b27147b075ab71724bec4
     - name: caged shocker_Frame_48
       frameIndex: 48
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1872,6 +1921,7 @@ ScriptedImporter:
       spriteId: 00d97e93fd3e27240885389a55a20254
     - name: caged shocker_Frame_49
       frameIndex: 49
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1880,6 +1930,7 @@ ScriptedImporter:
       spriteId: e7b6b8006317baa408e227388ab74c1d
     - name: caged shocker_Frame_50
       frameIndex: 50
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1888,6 +1939,7 @@ ScriptedImporter:
       spriteId: 7b67d426424dd3e4690c234a36b57881
     - name: caged shocker_Frame_51
       frameIndex: 51
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1896,6 +1948,7 @@ ScriptedImporter:
       spriteId: 949c485aee2e14746b5f740cf3b8face
     - name: caged shocker_Frame_52
       frameIndex: 52
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1904,6 +1957,7 @@ ScriptedImporter:
       spriteId: 87b7c3186b7b409418caa64d88eddd9a
     - name: caged shocker_Frame_53
       frameIndex: 53
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1912,6 +1966,7 @@ ScriptedImporter:
       spriteId: 5d2c092212c1176499ea75eb257e7d9c
     - name: caged shocker_Frame_54
       frameIndex: 54
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1920,6 +1975,7 @@ ScriptedImporter:
       spriteId: 55d42d33942d2ec4f879f61d504d4228
     - name: caged shocker_Frame_55
       frameIndex: 55
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1928,6 +1984,7 @@ ScriptedImporter:
       spriteId: d0f2912a432bed543b8ae882c7806255
     - name: caged shocker_Frame_56
       frameIndex: 56
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1936,6 +1993,7 @@ ScriptedImporter:
       spriteId: 00627b291bb6ef54194b1c1e3cad0ccf
     - name: caged shocker_Frame_57
       frameIndex: 57
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1944,6 +2002,7 @@ ScriptedImporter:
       spriteId: 322da01ca6bc2ed438dd689624cd7820
     - name: caged shocker_Frame_58
       frameIndex: 58
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1952,6 +2011,7 @@ ScriptedImporter:
       spriteId: 8a542c721d819be45b95facfa9854ac6
     - name: caged shocker_Frame_59
       frameIndex: 59
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1960,6 +2020,7 @@ ScriptedImporter:
       spriteId: e2694c1c10c8e0344a3efdbaf4fa4947
     - name: caged shocker_Frame_60
       frameIndex: 60
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1968,6 +2029,7 @@ ScriptedImporter:
       spriteId: 9a72396e7382e5c4e9d2ee110441d23b
     - name: caged shocker_Frame_61
       frameIndex: 61
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1976,6 +2038,7 @@ ScriptedImporter:
       spriteId: 3ac5f8eb2be5d7c4e9a2179f3d4783e5
     - name: caged shocker_Frame_62
       frameIndex: 62
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1984,6 +2047,7 @@ ScriptedImporter:
       spriteId: 31d9fff616d0b1547864c78ec4b0465a
     - name: caged shocker_Frame_63
       frameIndex: 63
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1992,6 +2056,7 @@ ScriptedImporter:
       spriteId: 919dfa6c5427bce4ebdee6d60685421c
     - name: caged shocker_Frame_64
       frameIndex: 64
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -2000,6 +2065,7 @@ ScriptedImporter:
       spriteId: 3493e3062170f6b40aa0009142cc1f91
     - name: caged shocker_Frame_65
       frameIndex: 65
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -2008,6 +2074,7 @@ ScriptedImporter:
       spriteId: 9c4c04ecebe3df743b2ad4cf07794bab
     - name: caged shocker_Frame_66
       frameIndex: 66
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0

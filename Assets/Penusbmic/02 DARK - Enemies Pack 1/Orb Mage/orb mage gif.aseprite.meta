@@ -1079,6 +1079,7 @@ ScriptedImporter:
     cells:
     - name: orb mage gif_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1087,6 +1088,7 @@ ScriptedImporter:
       spriteId: 7bd327d3a07e95c428b99f24fbc87f9a
     - name: orb mage gif_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1095,6 +1097,7 @@ ScriptedImporter:
       spriteId: e88652a1a60121a41aed2eb0cd55229c
     - name: orb mage gif_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1103,6 +1106,7 @@ ScriptedImporter:
       spriteId: 83a81429d826abb4aa4551017dd551b8
     - name: orb mage gif_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1111,6 +1115,7 @@ ScriptedImporter:
       spriteId: 75a9cc4f4d85dc747a461f85830efabc
     - name: orb mage gif_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1119,6 +1124,7 @@ ScriptedImporter:
       spriteId: cf82ac63d1568cf419662bbe9e3476f1
     - name: orb mage gif_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1127,6 +1133,7 @@ ScriptedImporter:
       spriteId: d1b109ed4c392dd439b6f78c33351fc1
     - name: orb mage gif_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1135,6 +1142,7 @@ ScriptedImporter:
       spriteId: fc43a59146d1e50448ecb0a9b841cd60
     - name: orb mage gif_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1143,6 +1151,7 @@ ScriptedImporter:
       spriteId: eabace7f00ecf234798b6b06dc546ae2
     - name: orb mage gif_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1151,6 +1160,7 @@ ScriptedImporter:
       spriteId: 140ecf3262807af479e5bdf97e681e6b
     - name: orb mage gif_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1159,6 +1169,7 @@ ScriptedImporter:
       spriteId: a0e7ae70c6cb1e7449d558114459ef48
     - name: orb mage gif_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1167,6 +1178,7 @@ ScriptedImporter:
       spriteId: e7206107b7514604d9cd0088ebffb4eb
     - name: orb mage gif_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1175,6 +1187,7 @@ ScriptedImporter:
       spriteId: 4826bf86d0472594f9f4bc54e97032e0
     - name: orb mage gif_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1183,6 +1196,7 @@ ScriptedImporter:
       spriteId: da3f15c9a43f66b4d86a0e0f2ff2a305
     - name: orb mage gif_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1191,6 +1205,7 @@ ScriptedImporter:
       spriteId: d518ba980c39dd44eb66f4de431e7248
     - name: orb mage gif_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1199,6 +1214,7 @@ ScriptedImporter:
       spriteId: c5901cb8198411449b1cf18bf1e8e949
     - name: orb mage gif_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1207,6 +1223,7 @@ ScriptedImporter:
       spriteId: ad1e25ffa3af52e4ebb5b3dcab8b3a0d
     - name: orb mage gif_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1215,6 +1232,7 @@ ScriptedImporter:
       spriteId: 48355e16988615644aa9a6b74832a6a5
     - name: orb mage gif_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1223,6 +1241,7 @@ ScriptedImporter:
       spriteId: 70cd7d5b4577c93428aef886cf10b456
     - name: orb mage gif_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1231,6 +1250,7 @@ ScriptedImporter:
       spriteId: 2948ed2f014f2ce4391b1bebaa6122f5
     - name: orb mage gif_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1239,6 +1259,7 @@ ScriptedImporter:
       spriteId: 94bcacdcb2b019545b7c045741124af3
     - name: orb mage gif_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1247,6 +1268,7 @@ ScriptedImporter:
       spriteId: 69d701a13216f6c4a9aafb4cfa11dfeb
     - name: orb mage gif_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1255,6 +1277,7 @@ ScriptedImporter:
       spriteId: 9beba15abb579ee43b0238fc6b6d6ef5
     - name: orb mage gif_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1263,6 +1286,7 @@ ScriptedImporter:
       spriteId: 29bac4582b3780e43a36154e4ded6fd8
     - name: orb mage gif_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1271,6 +1295,7 @@ ScriptedImporter:
       spriteId: ab523aa19b2587c40be49ace1c684dba
     - name: orb mage gif_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1279,6 +1304,7 @@ ScriptedImporter:
       spriteId: 8e2a03fc021424443a23729b5bf7ba52
     - name: orb mage gif_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1287,6 +1313,7 @@ ScriptedImporter:
       spriteId: 38f50ed55d4712840a1defcff6decb34
     - name: orb mage gif_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1295,6 +1322,7 @@ ScriptedImporter:
       spriteId: 4930067f1477bee4cbdea2b7ab55d2cf
     - name: orb mage gif_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1303,6 +1331,7 @@ ScriptedImporter:
       spriteId: 024d1c31a5d683c48bf63b8ce26189c9
     - name: orb mage gif_Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1311,6 +1340,7 @@ ScriptedImporter:
       spriteId: 551d153056ca06b469f476ffbbed3889
     - name: orb mage gif_Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1319,6 +1349,7 @@ ScriptedImporter:
       spriteId: 0c10e4daa2bc9cb4c9762eb0e53e9ad6
     - name: orb mage gif_Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1327,6 +1358,7 @@ ScriptedImporter:
       spriteId: b12eb61b0c94ecc499c5ee2fdf2969d1
     - name: orb mage gif_Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1335,6 +1367,7 @@ ScriptedImporter:
       spriteId: 4cb30051111a6034eb46428d081a0668
     - name: orb mage gif_Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1343,6 +1376,7 @@ ScriptedImporter:
       spriteId: 5aa3cfa1ef564fc4c8a387ef820687d3
     - name: orb mage gif_Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1351,6 +1385,7 @@ ScriptedImporter:
       spriteId: 6f499f02aa681934b9408ad4a0d823b4
     - name: orb mage gif_Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1359,6 +1394,7 @@ ScriptedImporter:
       spriteId: 9a5780405e58b4244a43b1999e41a9cd
     - name: orb mage gif_Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1367,6 +1403,7 @@ ScriptedImporter:
       spriteId: 42133cce825905749a9035cc00eb9022
     - name: orb mage gif_Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1375,6 +1412,7 @@ ScriptedImporter:
       spriteId: 814c45321adaf1640a53c4999db30be0
     - name: orb mage gif_Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1383,6 +1421,7 @@ ScriptedImporter:
       spriteId: 281daceb32bb6764fa6ed5faf458eefc
     - name: orb mage gif_Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1391,6 +1430,7 @@ ScriptedImporter:
       spriteId: e676f38972f500b41b5cf36c45ecb03f
     - name: orb mage gif_Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1399,6 +1439,7 @@ ScriptedImporter:
       spriteId: 8bd4faa7bc514934186e5b575b7d6b2b
     - name: orb mage gif_Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1407,6 +1448,7 @@ ScriptedImporter:
       spriteId: 71ba1fded57eda34cacc71491b15da0d
     - name: orb mage gif_Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1415,6 +1457,7 @@ ScriptedImporter:
       spriteId: 827f18fb4df161e4293efe36b747aa0e
     - name: orb mage gif_Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1423,6 +1466,7 @@ ScriptedImporter:
       spriteId: 63ca6da690cfebb43af91c34af00a649
     - name: orb mage gif_Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1431,6 +1475,7 @@ ScriptedImporter:
       spriteId: a36a7b4f8ddf1b441ba532ce6a6e5820
     - name: orb mage gif_Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1439,6 +1484,7 @@ ScriptedImporter:
       spriteId: 4f01da9e8ae84fc4b8a6b2ed37e12e1b
     - name: orb mage gif_Frame_45
       frameIndex: 45
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -1447,6 +1493,7 @@ ScriptedImporter:
       spriteId: f59625e2e83ba504aa6e204df9afa3fc
     - name: orb mage gif_Frame_46
       frameIndex: 46
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0

@@ -1032,6 +1032,7 @@ ScriptedImporter:
     cells:
     - name: flame dude dark_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 3
@@ -1040,6 +1041,7 @@ ScriptedImporter:
       spriteId: dfc59b1ccad08494caaa455af3517492
     - name: flame dude dark_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
@@ -1048,6 +1050,7 @@ ScriptedImporter:
       spriteId: 1c238b45408e04d4f9805d4dd17e19f3
     - name: flame dude dark_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
@@ -1056,6 +1059,7 @@ ScriptedImporter:
       spriteId: e509243a5da4d494cb2a389b68ebb276
     - name: flame dude dark_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
@@ -1064,6 +1068,7 @@ ScriptedImporter:
       spriteId: c4c85c4e1adb3e942b48fe5f98f4a556
     - name: flame dude dark_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
@@ -1072,6 +1077,7 @@ ScriptedImporter:
       spriteId: 88866bea53dfdf64c997a2795bf0305b
     - name: flame dude dark_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
@@ -1080,6 +1086,7 @@ ScriptedImporter:
       spriteId: 0d0379e8552a0384da116a5cd96f4d9d
     - name: flame dude dark_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
@@ -1088,6 +1095,7 @@ ScriptedImporter:
       spriteId: 99c4e8c8b70de5a458f1b25126c642d5
     - name: flame dude dark_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
@@ -1096,6 +1104,7 @@ ScriptedImporter:
       spriteId: 3157d95974898d64780fe2e7f9e8ee23
     - name: flame dude dark_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 7
@@ -1104,6 +1113,7 @@ ScriptedImporter:
       spriteId: c38ff90d2f418db4abb4505a840259d8
     - name: flame dude dark_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 8
@@ -1112,6 +1122,7 @@ ScriptedImporter:
       spriteId: a6c6e70311b5ea742af2841e515f1b7b
     - name: flame dude dark_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 7
@@ -1120,6 +1131,7 @@ ScriptedImporter:
       spriteId: e5b45a6b768e5524aa29e5d887ef8b49
     - name: flame dude dark_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
@@ -1128,6 +1140,7 @@ ScriptedImporter:
       spriteId: 0f70e89e8dcc44848a723864d5e4eb9c
     - name: flame dude dark_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 6
@@ -1136,6 +1149,7 @@ ScriptedImporter:
       spriteId: 827ca9f63c9a9ed4e8234158717fe948
     - name: flame dude dark_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 7
@@ -1144,6 +1158,7 @@ ScriptedImporter:
       spriteId: 28b5c40512e396a4d9047f1f8967e72b
     - name: flame dude dark_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 6
@@ -1152,6 +1167,7 @@ ScriptedImporter:
       spriteId: 6e781055dc6615e45bca042bf6b4bd3d
     - name: flame dude dark_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
@@ -1160,6 +1176,7 @@ ScriptedImporter:
       spriteId: 2765ccc2b726d25498a954fd6e7a6f3b
     - name: flame dude dark_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
@@ -1168,6 +1185,7 @@ ScriptedImporter:
       spriteId: 36c9871aaecd0be4ca39a3f5584dbacc
     - name: flame dude dark_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
@@ -1176,6 +1194,7 @@ ScriptedImporter:
       spriteId: ea017c1c780b6c344b05f8f29f85e51a
     - name: flame dude dark_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
@@ -1184,6 +1203,7 @@ ScriptedImporter:
       spriteId: 07a8834b08c68af4a981f04017cdab27
     - name: flame dude dark_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
@@ -1192,6 +1212,7 @@ ScriptedImporter:
       spriteId: fe5a232359a4718448920382be2b1439
     - name: flame dude dark_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
@@ -1200,6 +1221,7 @@ ScriptedImporter:
       spriteId: e8212b7f1833a7543a42c938205b95b4
     - name: flame dude dark_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
@@ -1208,6 +1230,7 @@ ScriptedImporter:
       spriteId: 35804ed75c3e1ea448b0c982287e55f7
     - name: flame dude dark_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 1
@@ -1216,6 +1239,7 @@ ScriptedImporter:
       spriteId: ce5e1ef2b4d7be14692c04614b7d6d2d
     - name: flame dude dark_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 0
@@ -1224,6 +1248,7 @@ ScriptedImporter:
       spriteId: 7e5bc7f1471fe56449a6bf0d53450f03
     - name: flame dude dark_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 0
@@ -1232,6 +1257,7 @@ ScriptedImporter:
       spriteId: 6f9aaab7e9272b2438746c8d53fbeed6
     - name: flame dude dark_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 0
@@ -1240,6 +1266,7 @@ ScriptedImporter:
       spriteId: a82d717785ebd194ca84822258e96d77
     - name: flame dude dark_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 0
@@ -1248,6 +1275,7 @@ ScriptedImporter:
       spriteId: ae0ef142e095a9d4e959eee9b4e9cbec
     - name: flame dude dark_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 0
@@ -1256,6 +1284,7 @@ ScriptedImporter:
       spriteId: 393492afbace63746abd18c1633fb064
     - name: flame dude dark_Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
@@ -1264,6 +1293,7 @@ ScriptedImporter:
       spriteId: 99a187ec339b23f4db884a303728b175
     - name: flame dude dark_Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
@@ -1272,6 +1302,7 @@ ScriptedImporter:
       spriteId: 3685de706dcf9fe4fbf3021dd197e580
     - name: flame dude dark_Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
@@ -1280,6 +1311,7 @@ ScriptedImporter:
       spriteId: de7d79a8042a48e49846470493907c2f
     - name: flame dude dark_Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 4
@@ -1288,6 +1320,7 @@ ScriptedImporter:
       spriteId: 62113005efbd0e349b2a289c0c46b269
     - name: flame dude dark_Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 4
@@ -1296,6 +1329,7 @@ ScriptedImporter:
       spriteId: 7d5bd3d02ecf00d4fa70166c3276c4c3
     - name: flame dude dark_Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 4
@@ -1304,6 +1338,7 @@ ScriptedImporter:
       spriteId: 63b7d4fbf40873f48b41557cf5799fea
     - name: flame dude dark_Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 4
@@ -1312,6 +1347,7 @@ ScriptedImporter:
       spriteId: 87c47d06796973741a8ec2b0a4abcbfc
     - name: flame dude dark_Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 4
@@ -1320,6 +1356,7 @@ ScriptedImporter:
       spriteId: 82a6c576e13568149bd99772882f5a74
     - name: flame dude dark_Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 4
@@ -1328,6 +1365,7 @@ ScriptedImporter:
       spriteId: d894cf1ea870b9647ac008ccb96cd971
     - name: flame dude dark_Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 4
@@ -1336,6 +1374,7 @@ ScriptedImporter:
       spriteId: 5c6f144e85d8a2c43be0d087c84d18fe
     - name: flame dude dark_Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 4
@@ -1344,6 +1383,7 @@ ScriptedImporter:
       spriteId: daf8a7d6cd09dcb41a8a095671bd47f0
     - name: flame dude dark_Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 4
@@ -1352,6 +1392,7 @@ ScriptedImporter:
       spriteId: e5bba6444a6ebc843abaa67154594658
     - name: flame dude dark_Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 4
@@ -1360,6 +1401,7 @@ ScriptedImporter:
       spriteId: 6dafcc6567497a249ac4886d5e756936
     - name: flame dude dark_Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 4
@@ -1368,6 +1410,7 @@ ScriptedImporter:
       spriteId: ab24dd4de1524084bae7c7b2aba3bd51
     - name: flame dude dark_Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 4
@@ -1376,6 +1419,7 @@ ScriptedImporter:
       spriteId: bd45b8c7801864a40adfe3ad605efee5
     - name: flame dude dark_Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 4
@@ -1384,6 +1428,7 @@ ScriptedImporter:
       spriteId: 0e1e67d8192b9384cad3b4e8afd5926c
     - name: flame dude dark_Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 11

@@ -1419,6 +1419,7 @@ ScriptedImporter:
     cells:
     - name: Assassin_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: -1
@@ -1427,6 +1428,7 @@ ScriptedImporter:
       spriteId: 17496a04228d1c64ea0e8249d6d58bae
     - name: Assassin_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: -1
@@ -1435,6 +1437,7 @@ ScriptedImporter:
       spriteId: 449914647bd28324dac7f9d4940b82ec
     - name: Assassin_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 1
@@ -1443,6 +1446,7 @@ ScriptedImporter:
       spriteId: a21a239fca9285a439547e84ca41b591
     - name: Assassin_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 2
@@ -1451,6 +1455,7 @@ ScriptedImporter:
       spriteId: ede59db106231aa44a0883d35993d2db
     - name: Assassin_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -1459,6 +1464,7 @@ ScriptedImporter:
       spriteId: 41e89fd0596caed4d9d1fc5b3d99690d
     - name: Assassin_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -1467,6 +1473,7 @@ ScriptedImporter:
       spriteId: 91306f666fe6cf045b68c101acff36e5
     - name: Assassin_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 1
@@ -1475,6 +1482,7 @@ ScriptedImporter:
       spriteId: 2bb3aa5ed19efb3458f42ac085bb781f
     - name: Assassin_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 1
@@ -1483,6 +1491,7 @@ ScriptedImporter:
       spriteId: 406caecc3441d4842a5d5fb9fe00e9b1
     - name: Assassin_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -1491,6 +1500,7 @@ ScriptedImporter:
       spriteId: b848cdc0a391d8143858c0a782a9679e
     - name: Assassin_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -1499,6 +1509,7 @@ ScriptedImporter:
       spriteId: 3165760664a39ef4bbeca40ec2e9b64a
     - name: Assassin_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -1507,6 +1518,7 @@ ScriptedImporter:
       spriteId: 966eed7858e26c745abe31b15864ca7e
     - name: Assassin_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -1515,6 +1527,7 @@ ScriptedImporter:
       spriteId: ca534565aaf5cd54b990fd2eaff58be4
     - name: Assassin_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -1523,6 +1536,7 @@ ScriptedImporter:
       spriteId: 58bb9123678507b4483843101cbbab16
     - name: Assassin_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -1531,6 +1545,7 @@ ScriptedImporter:
       spriteId: ba9bd11bbc4d30e48ad15c3b2733012f
     - name: Assassin_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 2
@@ -1539,6 +1554,7 @@ ScriptedImporter:
       spriteId: dbfe137a1ea49d048b9733daafdc81fd
     - name: Assassin_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 2
@@ -1547,6 +1563,7 @@ ScriptedImporter:
       spriteId: 88940d672cf9654438ad89ba3ad76d11
     - name: Assassin_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 2
@@ -1555,6 +1572,7 @@ ScriptedImporter:
       spriteId: 402adc5b9d197574ea90103932156f53
     - name: Assassin_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 2
@@ -1563,6 +1581,7 @@ ScriptedImporter:
       spriteId: 530de22a2b16a03409a8db111f13170e
     - name: Assassin_Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 5
         y: -1
@@ -1571,6 +1590,7 @@ ScriptedImporter:
       spriteId: 29d7eb9185ab18249a9d05ed7ddd4674
     - name: Assassin_Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: -1
@@ -1579,6 +1599,7 @@ ScriptedImporter:
       spriteId: a7fac9c59ffe91b459fbc4ee066a6c64
     - name: Assassin_Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: -1
@@ -1587,6 +1608,7 @@ ScriptedImporter:
       spriteId: 57d24cdb112988b4eb7c45744b529fbd
     - name: Assassin_Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: -1
@@ -1595,6 +1617,7 @@ ScriptedImporter:
       spriteId: 3a88d7eb5cebbe142841886e4d1df1ba
     - name: Assassin_Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: -1
@@ -1603,6 +1626,7 @@ ScriptedImporter:
       spriteId: b70f9ca3e06c48841b8856a72ff8d638
     - name: Assassin_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: -1
@@ -1611,6 +1635,7 @@ ScriptedImporter:
       spriteId: e693eb64feb8f4641a3c7c1d70353edf
     - name: Assassin_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: -1
@@ -1619,6 +1644,7 @@ ScriptedImporter:
       spriteId: 126cd74b9b3c5014d9bbbcdbb46b5381
     - name: Assassin_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: -1
@@ -1627,6 +1653,7 @@ ScriptedImporter:
       spriteId: 3cdb7c2977cfce348adcc281113f96c9
     - name: Assassin_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: -1
@@ -1635,6 +1662,7 @@ ScriptedImporter:
       spriteId: 5fe15fd1e6dcb3a4da247efee9092bab
     - name: Assassin_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: -1
@@ -1643,6 +1671,7 @@ ScriptedImporter:
       spriteId: 88ef9f00d7604f5458eac9d67eec4340
     - name: Assassin_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: -1
@@ -1651,6 +1680,7 @@ ScriptedImporter:
       spriteId: bc998b64210b95d4ea3fd1877a2d537f
     - name: Assassin_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: -1
@@ -1659,6 +1689,7 @@ ScriptedImporter:
       spriteId: 081d3af2b35e6da419b2e1ff89e0c0c2
     - name: Assassin_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: -1
@@ -1667,6 +1698,7 @@ ScriptedImporter:
       spriteId: 85dba4f5fc39e8e4a91702230ed729f0
     - name: Assassin_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: -1
@@ -1675,6 +1707,7 @@ ScriptedImporter:
       spriteId: 9534dc07085617f43927720b86405fe6
     - name: Assassin_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: -1
@@ -1683,6 +1716,7 @@ ScriptedImporter:
       spriteId: 8438beb7653076e42b065c3d06cd27ed
     - name: Assassin_Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: -1
@@ -1691,6 +1725,7 @@ ScriptedImporter:
       spriteId: 919ff113cec0d5d459478de13f5aa1fb
     - name: Assassin_Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: -1
@@ -1699,6 +1734,7 @@ ScriptedImporter:
       spriteId: ffafd01b21472884c9202538b4c0c4ac
     - name: Assassin_Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 11
         y: -1
@@ -1707,6 +1743,7 @@ ScriptedImporter:
       spriteId: 93172b5be1dd05147bdc57f1d12fa349
     - name: Assassin_Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 11
         y: -1
@@ -1715,6 +1752,7 @@ ScriptedImporter:
       spriteId: 06cb5d8a2c8feec4487a5a31b1dfe3ea
     - name: Assassin_Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 11
         y: -1
@@ -1723,6 +1761,7 @@ ScriptedImporter:
       spriteId: f91acce508b1d1947a8505c40b4dcc7e
     - name: Assassin_Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 11
         y: -1
@@ -1731,6 +1770,7 @@ ScriptedImporter:
       spriteId: d00700a45c2fa06489602ebb45f8f624
     - name: Assassin_Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: -1
@@ -1739,6 +1779,7 @@ ScriptedImporter:
       spriteId: 726ba35b49ed8044d854bc6727475532
     - name: Assassin_Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: 5
         y: -1
@@ -1747,6 +1788,7 @@ ScriptedImporter:
       spriteId: f29fbddd4f5a1df47b4e3f42dc4d1350
     - name: Assassin_Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: -1
@@ -1755,6 +1797,7 @@ ScriptedImporter:
       spriteId: cbed307ecb6c0eb4a811450da452ff9a
     - name: Assassin_Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: -1
@@ -1763,6 +1806,7 @@ ScriptedImporter:
       spriteId: 9b6216c61cbb03a43948fec45e510692
     - name: Assassin_Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: -1
@@ -1771,6 +1815,7 @@ ScriptedImporter:
       spriteId: 7683001e6545d9a4993a0bb4b319ccc2
     - name: Assassin_Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: -1
@@ -1779,6 +1824,7 @@ ScriptedImporter:
       spriteId: 2ef20c8f013ae2442a5ad93abda96839
     - name: Assassin_Frame_45
       frameIndex: 45
+      additiveSortOrder: 0
       cellRect:
         x: 24
         y: -1
@@ -1787,6 +1833,7 @@ ScriptedImporter:
       spriteId: a8b1d17913405874480254d443738b9f
     - name: Assassin_Frame_46
       frameIndex: 46
+      additiveSortOrder: 0
       cellRect:
         x: 25
         y: -1
@@ -1795,6 +1842,7 @@ ScriptedImporter:
       spriteId: d5d91a72d598adb4c802f3c500d84001
     - name: Assassin_Frame_47
       frameIndex: 47
+      additiveSortOrder: 0
       cellRect:
         x: 38
         y: -1
@@ -1803,6 +1851,7 @@ ScriptedImporter:
       spriteId: 5f43a82196ae14845ae8e5f59bc14265
     - name: Assassin_Frame_48
       frameIndex: 48
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: -1
@@ -1811,6 +1860,7 @@ ScriptedImporter:
       spriteId: 667cdcdde1035ba46ab4dab107e27b53
     - name: Assassin_Frame_49
       frameIndex: 49
+      additiveSortOrder: 0
       cellRect:
         x: 48
         y: 0
@@ -1819,6 +1869,7 @@ ScriptedImporter:
       spriteId: dce67753761868c46bc540a78a599c23
     - name: Assassin_Frame_50
       frameIndex: 50
+      additiveSortOrder: 0
       cellRect:
         x: 50
         y: 0
@@ -1827,6 +1878,7 @@ ScriptedImporter:
       spriteId: 2a0a5c4b51a8c1649a2ef89a09bbf193
     - name: Assassin_Frame_51
       frameIndex: 51
+      additiveSortOrder: 0
       cellRect:
         x: 49
         y: 0
@@ -1835,6 +1887,7 @@ ScriptedImporter:
       spriteId: 51f7b1bf47ba5fd4488ae5511ea7b451
     - name: Assassin_Frame_52
       frameIndex: 52
+      additiveSortOrder: 0
       cellRect:
         x: 48
         y: 0
@@ -1843,6 +1896,7 @@ ScriptedImporter:
       spriteId: 72c8e597b70c9a847a88b8d27099bddd
     - name: Assassin_Frame_53
       frameIndex: 53
+      additiveSortOrder: 0
       cellRect:
         x: 48
         y: 0
@@ -1851,6 +1905,7 @@ ScriptedImporter:
       spriteId: 36fcf44f3572d864f9c57785212c9c10
     - name: Assassin_Frame_54
       frameIndex: 54
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: -1
@@ -1859,6 +1914,7 @@ ScriptedImporter:
       spriteId: c522f85586ac3894484589ee74673707
     - name: Assassin_Frame_55
       frameIndex: 55
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: -1
@@ -1867,6 +1923,7 @@ ScriptedImporter:
       spriteId: f8414bc333bae75489d125b15a833210
     - name: Assassin_Frame_56
       frameIndex: 56
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -1875,6 +1932,7 @@ ScriptedImporter:
       spriteId: f8b2e3d18eab5a841be23b0392c98d39
     - name: Assassin_Frame_57
       frameIndex: 57
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: -1
@@ -1883,6 +1941,7 @@ ScriptedImporter:
       spriteId: e503a68d4c5b59d49adce76336b6043b
     - name: Assassin_Frame_58
       frameIndex: 58
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: -1
@@ -1891,6 +1950,7 @@ ScriptedImporter:
       spriteId: 21823d785bbded349ade07137cd56a9b
     - name: Assassin_Frame_59
       frameIndex: 59
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: -1
@@ -1899,6 +1959,7 @@ ScriptedImporter:
       spriteId: 7750b4d4458b6f54eab9e0badbf22345
     - name: Assassin_Frame_60
       frameIndex: 60
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: -1
@@ -1907,6 +1968,7 @@ ScriptedImporter:
       spriteId: cdb9a359812cbdc449633da4050f75f8
     - name: Assassin_Frame_61
       frameIndex: 61
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: -1
@@ -1915,6 +1977,7 @@ ScriptedImporter:
       spriteId: 1c2c4148ef13cef469c2d3bacabaeef4
     - name: Assassin_Frame_62
       frameIndex: 62
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: -1
@@ -1923,6 +1986,7 @@ ScriptedImporter:
       spriteId: 37f02bace0607144b8eda908c4df1dc5
     - name: Assassin_Frame_63
       frameIndex: 63
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: -1

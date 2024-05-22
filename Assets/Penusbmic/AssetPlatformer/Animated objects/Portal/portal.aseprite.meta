@@ -492,6 +492,7 @@ ScriptedImporter:
     cells:
     - name: portal_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -500,6 +501,7 @@ ScriptedImporter:
       spriteId: 9584c4a87c737a14a8b3a4cb450c4867
     - name: portal_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -508,6 +510,7 @@ ScriptedImporter:
       spriteId: 0c1f9de861ebf5241b4d1db5b0b3c50b
     - name: portal_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -516,6 +519,7 @@ ScriptedImporter:
       spriteId: bb2c80e1a52070f4f9e6406a6feb4b13
     - name: portal_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -524,6 +528,7 @@ ScriptedImporter:
       spriteId: 67e7530dd3a5a484784f8b465846a94d
     - name: portal_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -532,6 +537,7 @@ ScriptedImporter:
       spriteId: a9378454ecbdf7d45a3f6b5044f51a5f
     - name: portal_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -540,6 +546,7 @@ ScriptedImporter:
       spriteId: 65963cf2696c8304ead7af50510d56f6
     - name: portal_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -548,6 +555,7 @@ ScriptedImporter:
       spriteId: 33679488a418b9c4a89289bf518a4142
     - name: portal_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -556,6 +564,7 @@ ScriptedImporter:
       spriteId: 13d05964b0090044f893792029aea7f5
     - name: portal_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -564,6 +573,7 @@ ScriptedImporter:
       spriteId: 84324db7de516214cb946c04162a4695
     - name: portal_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -572,6 +582,7 @@ ScriptedImporter:
       spriteId: fa5b877a10dd27f47b7d993d126ef845
     - name: portal_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -580,6 +591,7 @@ ScriptedImporter:
       spriteId: 626057e07456a8e4287d712361780c57
     - name: portal_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -588,6 +600,7 @@ ScriptedImporter:
       spriteId: ee3418fd9af5b6c4097c5f155017d8ec
     - name: portal_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -596,6 +609,7 @@ ScriptedImporter:
       spriteId: 030e110a4b10c1843aa4224be53b8a59
     - name: portal_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -604,6 +618,7 @@ ScriptedImporter:
       spriteId: ddb65bd92622d104a9965c50d75a71b5
     - name: portal_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -612,6 +627,7 @@ ScriptedImporter:
       spriteId: 985725a7f90896c47b73747122d7faf9
     - name: portal_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -620,6 +636,7 @@ ScriptedImporter:
       spriteId: f32145d032d7b2c4fb967ce18c4f97f8
     - name: portal_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -628,6 +645,7 @@ ScriptedImporter:
       spriteId: 79bc1a92dbea1fc4a9f5cd479f109778
     - name: portal_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
