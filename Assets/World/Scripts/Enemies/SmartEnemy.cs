@@ -317,11 +317,11 @@ public class SmartEnemy : MonoBehaviour
 
     IEnumerator Dash()
     {
-        anim.SetTrigger("StartDash");  // Update this line
+        anim.SetTrigger("IsDashing");  // Update this line
         isDashing = true;
         yield return new WaitForSeconds(0.1f);
         isDashing = false;
-        anim.ResetTrigger("StartDash");  // Update this line
+        anim.ResetTrigger("IsDashing");  // Update this line
         EndDecision();
     }
 
